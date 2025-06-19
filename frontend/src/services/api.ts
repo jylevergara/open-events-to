@@ -1,0 +1,79 @@
+import axios from 'axios';
+
+const API_BASE_URL = 'http://localhost:3001/api';
+
+const api = axios.create({
+  baseURL: API_BASE_URL,
+  timeout: 10000,
+});
+
+export interface Event {
+  id: number;
+  EventName: string;
+  Area: string;
+  CategoryList: string | string[];
+  PresentedByOrgName: string;
+  Image: string;
+  DateBeginShow: string;
+  TimeBegin: string;
+  DateEndShow: string;
+  TimeEnd: string;
+  Admission: string;
+  LongDesc: string | string[];
+}
+
+export interface EventFilters {
+  category?: string;
+  area?: string;
+  search?: string;
+  dateFilter?: 'today' | 'week' | 'month' | 'all';
+}
+
+export const eventService = {
+  // Get all events with optional filters
+  getEvents: async (filters: EventFilters = {}): Promise<Event[]> => {
+    const params = new URLSearchParams();
+    
+    if (filters.category && filters.category !== 'all') {
+      params.append('category', filters.category);
+    }
+    if (filters.area && filters.area !== 'all') {
+      params.append('area', filters.area);
+    }
+    if (filters.search) {
+      params.append('search', filters.search);
+    }
+    if (filters.dateFilter && filters.dateFilter !== 'all') {
+      params.append('dateFilter', filters.dateFilter);
+    }
+
+    const response = await api.get(`/events?${params.toString()}`);
+    return response.data;
+  },
+
+  // Get single event by ID
+  getEvent: async (id: number): Promise<Event> => {
+    const response = await api.get(`/events/${id}`);
+    return response.data;
+  },
+
+  // Get all categories
+  getCategories: async (): Promise<string[]> => {
+    const response = await api.get('/categories');
+    return response.data;
+  },
+
+  // Get all areas
+  getAreas: async (): Promise<string[]> => {
+    const response = await api.get('/areas');
+    return response.data;
+  },
+
+  // Health check
+  healthCheck: async () => {
+    const response = await api.get('/health');
+    return response.data;
+  },
+};
+
+export default eventService;
