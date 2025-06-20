@@ -18,7 +18,6 @@ import {
 import {
   ArrowBack,
   LocationOn,
-  Schedule,
   AttachMoney,
   CalendarToday,
   Language,
@@ -27,6 +26,7 @@ import {
 import { Event, eventService } from '../services/api';
 import { FavoriteButton } from './FavoriteButton';
 import { CommentSection } from './CommentSection';
+import { CalendarExportButton } from './CalendarExportButton';
 
 export const EventDetails: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -180,7 +180,10 @@ export const EventDetails: React.FC = () => {
             <Typography variant="h3" component="h2" gutterBottom sx={{ fontWeight: 600, flex: 1 }}>
               {event.EventName}
             </Typography>
-            <FavoriteButton eventId={event.id} size="large" />
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+              <FavoriteButton eventId={event.id} size="large" />
+              <CalendarExportButton event={event} size="large" />
+            </Box>
           </Box>
 
           {/* Categories */}

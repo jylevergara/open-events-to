@@ -23,6 +23,7 @@ import {
 import { Event } from '../services/api';
 import { FavoriteButton } from './FavoriteButton';
 import { CommentSection } from './CommentSection';
+import { CalendarExportButton } from './CalendarExportButton';
 
 interface EventCardProps {
   event: Event;
@@ -190,6 +191,7 @@ export const EventCard: React.FC<EventCardProps> = ({
             >
               <Comment />
             </IconButton>
+            <CalendarExportButton event={event} size="small" />
           </Box>
 
           {getDescription() && (
