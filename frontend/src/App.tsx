@@ -17,7 +17,7 @@ import {
 import { Favorite, Event as EventIcon } from '@mui/icons-material';
 import { theme } from './theme';
 import { eventService, Event, EventFilters } from './services/api';
-import { useFavorites } from './hooks/useFavorites';
+import { useFavorites, FavoritesProvider } from './contexts/FavoritesContext';
 import { FilterBar } from './components/FilterBar';
 import { ViewToggle, ViewMode } from './components/ViewToggle';
 import { EventList } from './components/EventList';
@@ -44,7 +44,7 @@ function TabPanel(props: TabPanelProps) {
   );
 }
 
-function App() {
+function AppContent() {
   const [events, setEvents] = useState<Event[]>([]);
   const [favoriteEvents, setFavoriteEvents] = useState<Event[]>([]);
   const [categories, setCategories] = useState<string[]>([]);
@@ -248,6 +248,14 @@ function App() {
         </Alert>
       </Snackbar>
     </ThemeProvider>
+  );
+}
+
+function App() {
+  return (
+    <FavoritesProvider>
+      <AppContent />
+    </FavoritesProvider>
   );
 }
 
