@@ -145,12 +145,12 @@ export const CalendarExportButton: React.FC<CalendarExportButtonProps> = ({
   };
 
   return (
-    <Tooltip title="Export event to calendar">
+    <Tooltip title="Add to calendar">
       <IconButton
         onClick={handleExport}
         size={size}
         color="default"
-        aria-label="Export to calendar"
+        aria-label="Add to calendar"
       >
         <CalendarMonth />
       </IconButton>

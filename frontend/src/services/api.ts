@@ -14,6 +14,8 @@ export interface Event {
   CategoryList: string | string[];
   PresentedByOrgName: string;
   Image: string;
+  ThumbImage?: string;
+  ImageAlt?: string;
   DateBeginShow: string;
   TimeBegin: string;
   DateEndShow: string;
