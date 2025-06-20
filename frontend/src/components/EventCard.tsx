@@ -97,21 +97,78 @@ export const EventCard: React.FC<EventCardProps> = ({
       }}
     >
       {/* Event Image */}
-      {event.Image && (
+      {event.Image ? (
         <CardMedia
           component="img"
           sx={{
             height: isListView ? 120 : 200,
             width: isListView ? 200 : '100%',
             objectFit: 'cover',
+            backgroundColor: 'grey.100',
           }}
           image={event.Image}
-          alt={event.EventName}
+          alt={event.ImageAlt || event.EventName}
           onError={(e) => {
-            (e.target as HTMLImageElement).style.display = 'none';
+            // Try fallback to thumbnail image if main image fails
+            const img = e.target as HTMLImageElement;
+            if (event.ThumbImage && img.src !== event.ThumbImage) {
+              img.src = event.ThumbImage;
+            } else {
+              // Hide the broken image and show placeholder instead
+              img.style.display = 'none';
+              const placeholder = img.parentElement?.nextElementSibling as HTMLElement;
+              if (placeholder) {
+                placeholder.style.display = 'flex';
+              }
+            }
           }}
         />
-      )}
+      ) : event.ThumbImage ? (
+        <CardMedia
+          component="img"
+          sx={{
+            height: isListView ? 120 : 200,
+            width: isListView ? 200 : '100%',
+            objectFit: 'cover',
+            backgroundColor: 'grey.100',
+          }}
+          image={event.ThumbImage}
+          alt={event.ImageAlt || event.EventName}
+          onError={(e) => {
+            // Hide the broken image and show placeholder instead
+            const img = e.target as HTMLImageElement;
+            img.style.display = 'none';
+            const placeholder = img.parentElement?.nextElementSibling as HTMLElement;
+            if (placeholder) {
+              placeholder.style.display = 'flex';
+            }
+          }}
+        />
+      ) : null}
+
+      {/* No Image Placeholder */}
+      <Box
+        sx={{
+          height: isListView ? 120 : 200,
+          width: isListView ? 200 : '100%',
+          backgroundColor: 'grey.300',
+          display: (!event.Image && !event.ThumbImage) ? 'flex' : 'none',
+          alignItems: 'center',
+          justifyContent: 'center',
+          flexDirection: 'column',
+        }}
+      >
+        <Typography
+          variant="body2"
+          color="text.secondary"
+          sx={{
+            fontWeight: 500,
+            textAlign: 'center',
+          }}
+        >
+          No Image Found
+        </Typography>
+      </Box>
 
       <Box sx={{ display: 'flex', flexDirection: 'column', flex: 1 }}>
         <CardContent sx={{ flex: 1, pb: 1 }}>
@@ -184,13 +241,6 @@ export const EventCard: React.FC<EventCardProps> = ({
         <CardActions sx={{ justifyContent: 'space-between', px: 2, pb: 2 }}>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
             <FavoriteButton eventId={event.id} />
-            <IconButton
-              onClick={handleCommentsClick}
-              size="small"
-              color={showComments ? 'primary' : 'default'}
-            >
-              <Comment />
-            </IconButton>
             <CalendarExportButton event={event} size="small" />
           </Box>
 

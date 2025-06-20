@@ -112,7 +112,7 @@ const WelcomeSection: React.FC = () => {
               textShadow: '0 2px 4px rgba(0,0,0,0.3)'
             }}
           >
-            When in Toronto, do as Torontonians do!
+            Welcome to Your Toronto Events Hub!
           </Typography>
           
           <Typography 
@@ -125,10 +125,7 @@ const WelcomeSection: React.FC = () => {
               fontWeight: 400
             }}
           >
-            Find your vibe here with us, your official concierge to the Toronto region, 
-            spanning the Greater Toronto Area. Let the city's good vibes, 
-            year-round festivals, food, music, art, and history feed your bucket list 
-            FOMO—plan your visit and discover how the Six moves!
+            Looking for what’s happening in the Six? You’ve come to the right place. From street festivals to secret shows, food markets to museum nights — we’ve got your next plan covered. Whether you're local or just visiting, explore the best events across Toronto and the GTA. Let’s get you out there!
           </Typography>
 
           <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>

@@ -60,6 +60,24 @@ function transformEventData(eventWrapper, index) {
     }
   }
   
+  // Extract image information
+  let imageUrl = '';
+  let thumbImageUrl = '';
+  
+  if (event.image && event.image.url) {
+    // Construct full URL for main image
+    imageUrl = event.image.url.startsWith('http') 
+      ? event.image.url 
+      : `https://secure.toronto.ca${event.image.url}`;
+  }
+  
+  if (event.thumbImage && event.thumbImage.url) {
+    // Construct full URL for thumbnail image
+    thumbImageUrl = event.thumbImage.url.startsWith('http') 
+      ? event.thumbImage.url 
+      : `https://secure.toronto.ca${event.thumbImage.url}`;
+  }
+  
   // Extract dates
   let startDate = '';
   let endDate = '';
@@ -85,6 +103,9 @@ function transformEventData(eventWrapper, index) {
     Email: event.eventEmail || event.orgEmail || '',
     Website: event.eventWebsite || '',
     Cost: cost,
+    Image: imageUrl,
+    ThumbImage: thumbImageUrl,
+    ImageAlt: event.image ? event.image.altText || '' : '',
     originalEvent: event // Keep original data for reference
   };
 }

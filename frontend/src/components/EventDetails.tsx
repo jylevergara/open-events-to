@@ -153,7 +153,7 @@ export const EventDetails: React.FC = () => {
           <ArrowBack />
         </IconButton>
         <Typography variant="h4" component="h1" sx={{ display: 'inline', fontWeight: 600 }}>
-          Event Details
+          Back to Home
         </Typography>
       </Box>
 
