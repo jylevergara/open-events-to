@@ -112,7 +112,6 @@ function fetchEventsFromAPI() {
     response.on('end', () => {
       try {
         const jsonData = JSON.parse(data);
-        console.log('jsonData', jsonData);
         
         // Transform the JSON data to match the expected structure
         events = jsonData.map(transformEventData);
@@ -168,11 +167,43 @@ app.get('/api/events', (req, res) => {
     );
   }
   
-  // Filter by search term
+  // Filter by search term (enhanced search across multiple fields)
   if (search) {
-    filteredEvents = filteredEvents.filter(event =>
-      event.EventName && event.EventName.toLowerCase().includes(search.toLowerCase())
-    );
+    const searchLower = search.toLowerCase();
+    filteredEvents = filteredEvents.filter(event => {
+      // Search in event name
+      if (event.EventName && event.EventName.toLowerCase().includes(searchLower)) {
+        return true;
+      }
+      
+      // Search in description
+      if (event.Description && event.Description.toLowerCase().includes(searchLower)) {
+        return true;
+      }
+      
+      // Search in categories
+      if (event.CategoryList) {
+        const categories = Array.isArray(event.CategoryList) 
+          ? event.CategoryList 
+          : [event.CategoryList];
+        if (categories.some(cat => cat && cat.toLowerCase().includes(searchLower))) {
+          return true;
+        }
+      }
+      
+      // Search in area
+      if (event.Area && event.Area.toLowerCase().includes(searchLower)) {
+        return true;
+      }
+      
+      // Search in organization name
+      if (event.originalEvent && event.originalEvent.orgName && 
+          event.originalEvent.orgName.toLowerCase().includes(searchLower)) {
+        return true;
+      }
+      
+      return false;
+    });
   }
   
   // Filter by date (simplified for hackathon)
@@ -250,6 +281,53 @@ app.get('/api/areas', (req, res) => {
   });
   
   res.json(Array.from(areas).sort());
+});
+
+// Get autocomplete suggestions
+app.get('/api/autocomplete', (req, res) => {
+  const { query, limit = 10 } = req.query;
+  
+  if (!query || query.length < 2) {
+    return res.json({});
+  }
+  
+  const suggestions = [];
+  const queryLower = query.toLowerCase();
+  const seen = new Set(); // To avoid duplicates
+  
+  events.forEach(event => {
+    // Only search in event names
+    if (event.EventName && event.EventName.toLowerCase().includes(queryLower)) {
+      const key = `event-${event.EventName}`;
+      if (!seen.has(key)) {
+        suggestions.push({
+          text: event.EventName,
+          type: 'event',
+          category: 'Events'
+        });
+        seen.add(key);
+      }
+    }
+  });
+  
+  // Limit results and group by category
+  const limitedSuggestions = suggestions
+    .filter(s => s.text && s.text.trim().length > 0)
+    .slice(0, parseInt(limit));
+  
+  // Group by category
+  const grouped = limitedSuggestions.reduce((acc, suggestion) => {
+    const categoryName = suggestion.category;
+    if (!acc[categoryName]) {
+      acc[categoryName] = [];
+    }
+    // Remove the category property from individual suggestions since it's now the key
+    const { category, ...suggestionWithoutCategory } = suggestion;
+    acc[categoryName].push(suggestionWithoutCategory);
+    return acc;
+  }, {});
+  
+  res.json(grouped);
 });
 
 // Refresh events from API

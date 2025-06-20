@@ -5,13 +5,12 @@ import {
   InputLabel,
   Select,
   MenuItem,
-  TextField,
-  InputAdornment,
   Chip,
   Stack,
 } from '@mui/material';
-import { Search, FilterList } from '@mui/icons-material';
+import { FilterList } from '@mui/icons-material';
 import { EventFilters } from '../services/api';
+import { SearchWithAutocomplete } from './SearchWithAutocomplete';
 
 interface FilterBarProps {
   filters: EventFilters;
@@ -35,10 +34,10 @@ export const FilterBar: React.FC<FilterBarProps> = ({
     });
   };
 
-  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleSearchChange = (value: string) => {
     onFiltersChange({
       ...filters,
-      search: event.target.value || undefined,
+      search: value || undefined,
     });
   };
 
@@ -51,25 +50,12 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   return (
     <Box sx={{ mb: 3 }}>
       <Stack spacing={2}>
-        {/* Search Bar */}
-        <TextField
-          fullWidth
-          placeholder="Search events..."
+        {/* Search Bar with Autocomplete */}
+        <SearchWithAutocomplete
           value={filters.search || ''}
           onChange={handleSearchChange}
+          placeholder="Search events, categories, areas, organizations..."
           disabled={loading}
-          InputProps={{
-            startAdornment: (
-              <InputAdornment position="start">
-                <Search color="action" />
-              </InputAdornment>
-            ),
-          }}
-          sx={{
-            '& .MuiOutlinedInput-root': {
-              borderRadius: 2,
-            },
-          }}
         />
 
         {/* Filter Controls */}

@@ -20,6 +20,7 @@ export interface Event {
   TimeEnd: string;
   Admission: string;
   LongDesc: string | string[];
+  Website?: string;
 }
 
 export interface EventFilters {
@@ -27,6 +28,15 @@ export interface EventFilters {
   area?: string;
   search?: string;
   dateFilter?: 'today' | 'week' | 'month' | 'all';
+}
+
+export interface AutocompleteSuggestion {
+  text: string;
+  type: 'event' | 'category' | 'area' | 'organization' | 'keyword';
+}
+
+export interface AutocompleteResponse {
+  [category: string]: AutocompleteSuggestion[];
 }
 
 export const eventService = {
@@ -66,6 +76,20 @@ export const eventService = {
   // Get all areas
   getAreas: async (): Promise<string[]> => {
     const response = await api.get('/areas');
+    return response.data;
+  },
+
+  // Get autocomplete suggestions
+  getAutocompleteSuggestions: async (query: string, limit: number = 10): Promise<AutocompleteResponse> => {
+    if (!query || query.length < 2) {
+      return {};
+    }
+    
+    const params = new URLSearchParams();
+    params.append('query', query);
+    params.append('limit', limit.toString());
+    
+    const response = await api.get(`/autocomplete?${params.toString()}`);
     return response.data;
   },
 
