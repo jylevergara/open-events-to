@@ -29,6 +29,15 @@ export interface EventFilters {
   dateFilter?: 'today' | 'week' | 'month' | 'all';
 }
 
+export interface AutocompleteSuggestion {
+  text: string;
+  type: 'event' | 'category' | 'area' | 'organization' | 'keyword';
+}
+
+export interface AutocompleteResponse {
+  [category: string]: AutocompleteSuggestion[];
+}
+
 export const eventService = {
   // Get all events with optional filters
   getEvents: async (filters: EventFilters = {}): Promise<Event[]> => {
@@ -66,6 +75,20 @@ export const eventService = {
   // Get all areas
   getAreas: async (): Promise<string[]> => {
     const response = await api.get('/areas');
+    return response.data;
+  },
+
+  // Get autocomplete suggestions
+  getAutocompleteSuggestions: async (query: string, limit: number = 10): Promise<AutocompleteResponse> => {
+    if (!query || query.length < 2) {
+      return {};
+    }
+    
+    const params = new URLSearchParams();
+    params.append('query', query);
+    params.append('limit', limit.toString());
+    
+    const response = await api.get(`/autocomplete?${params.toString()}`);
     return response.data;
   },
 

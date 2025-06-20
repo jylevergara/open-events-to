@@ -140,7 +140,7 @@ function App() {
       <AppBar position="static" elevation={2}>
         <Toolbar>
           <EventIcon sx={{ mr: 2 }} />
-          <Typography variant="h5" component="h1" sx={{ flexGrow: 1, fontWeight: 600 }}>
+          <Typography variant="h5" component="h1" sx={{ flexGrow: 1, fontWeight: 600, color: 'white' }}>
             Toronto Events Hub
           </Typography>
           <Typography variant="body2" sx={{ mr: 2, opacity: 0.9 }}>
