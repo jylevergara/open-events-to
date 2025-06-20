@@ -315,9 +315,28 @@ export const MainLayout: React.FC = () => {
             />
             <Tab 
               label={
-                <Badge badgeContent={favoritesCount} color="error">
+                <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
                   Favorites
-                </Badge>
+                  {favoritesCount > 0 && (
+                    <Box
+                      sx={{
+                        backgroundColor: '#FF8C00', // Yellow-orange color
+                        color: 'white',
+                        fontSize: '0.75rem',
+                        fontWeight: 600,
+                        minWidth: '20px',
+                        height: '20px',
+                        borderRadius: '6px', // Rounded rectangle
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        px: 0.5,
+                      }}
+                    >
+                      {favoritesCount}
+                    </Box>
+                  )}
+                </Box>
               }
               icon={<Favorite />}
               iconPosition="start"
