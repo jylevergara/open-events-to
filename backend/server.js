@@ -1,7 +1,8 @@
 const express = require('express');
 const cors = require('cors');
+const https = require('https');
+const http = require('http');
 const fs = require('fs');
-const xml2js = require('xml2js');
 const path = require('path');
 
 const app = express();
@@ -13,51 +14,132 @@ app.use(express.json());
 
 // Store parsed events in memory
 let events = [];
+let lastFetchTime = null;
+let isUsingFallback = false;
 
-// Parse XML file on server startup
-function parseEventsXML() {
-  try {
-    const xmlData = fs.readFileSync(path.join(__dirname, 'events.xml'), 'utf8');
-    const parser = new xml2js.Parser();
-    
-    parser.parseString(xmlData, (err, result) => {
-      if (err) {
-        console.error('Error parsing XML:', err);
-        return;
-      }
-      
-      // Extract events from XML structure
-      const viewentries = result.viewentries.viewentry || [];
-      
-      events = viewentries.map((entry, index) => {
-        const entrydata = entry.entrydata || [];
-        const event = { id: index + 1 };
-        
-        entrydata.forEach(data => {
-          const name = data.$.name;
-          let value = '';
-          
-          if (data.text) {
-            if (Array.isArray(data.text)) {
-              value = data.text.join(' ');
-            } else {
-              value = data.text;
-            }
-          } else if (data.textlist && data.textlist.text) {
-            value = data.textlist.text;
-          }
-          
-          event[name] = value;
-        });
-        
-        return event;
-      });
-      
-      console.log(`Loaded ${events.length} events from XML`);
-    });
-  } catch (error) {
-    console.error('Error reading XML file:', error);
+// Transform event data to consistent format
+function transformEventData(eventWrapper, index) {
+  const event = eventWrapper.calEvent || eventWrapper;
+  
+  // Extract location information
+  let address = '';
+  let area = '';
+  if (event.locations && event.locations.length > 0) {
+    address = event.locations[0].address || '';
+    area = event.locations[0].locationName || '';
   }
+  
+  // Extract category information
+  let categoryList = '';
+  if (event.category && Array.isArray(event.category)) {
+    categoryList = event.category.map(cat => cat.name).join(', ');
+  } else if (event.categoryString) {
+    categoryList = event.categoryString;
+  }
+  
+  // Extract cost information
+  let cost = 'Free';
+  if (event.freeEvent === 'No' && event.cost) {
+    if (typeof event.cost === 'object') {
+      if (event.cost.ga) cost = `$${event.cost.ga}`;
+      else if (event.cost.adult) cost = `$${event.cost.adult}`;
+      else if (event.cost.from && event.cost.to) cost = `$${event.cost.from} - $${event.cost.to}`;
+      else cost = 'Paid';
+    } else {
+      cost = event.cost;
+    }
+  }
+  
+  // Extract dates
+  let startDate = '';
+  let endDate = '';
+  if (event.dates && event.dates.length > 0) {
+    startDate = event.dates[0].startDateTime || event.startDateTime || event.startDate;
+    endDate = event.dates[0].endDateTime || event.endDateTime || event.endDate;
+  } else {
+    startDate = event.startDateTime || event.startDate;
+    endDate = event.endDateTime || event.endDate;
+  }
+  
+  return {
+    id: index + 1,
+    EventName: event.eventName || '',
+    Description: event.description || '',
+    DateBeginShow: startDate,
+    DateEndShow: endDate,
+    Area: area,
+    CategoryList: categoryList,
+    Address: address,
+    Phone: event.eventPhone || event.orgPhone || '',
+    Email: event.eventEmail || event.orgEmail || '',
+    Website: event.eventWebsite || '',
+    Cost: cost,
+    originalEvent: event // Keep original data for reference
+  };
+}
+
+// Load events from local fallback file
+function loadFallbackEvents() {
+  try {
+    const fallbackPath = path.join(__dirname, 'event-data.json');
+    const fallbackData = fs.readFileSync(fallbackPath, 'utf8');
+    const jsonData = JSON.parse(fallbackData);
+    
+    events = jsonData.map(transformEventData);
+    isUsingFallback = true;
+    lastFetchTime = new Date();
+    
+    console.log(`Loaded ${events.length} events from fallback file (event-data.json)`);
+  } catch (error) {
+    console.error('Error loading fallback events:', error);
+    events = [];
+  }
+}
+
+// Fetch events from Toronto Open Data JSON API
+function fetchEventsFromAPI() {
+  const url = 'https://secure.toronto.ca/cc_sr_v1/data/edc_eventcal_APR?limit=500'
+  
+  console.log('Fetching events from Toronto Open Data API...');
+  
+  const request = https.get(url, (response) => {
+    let data = '';
+    
+    response.on('data', (chunk) => {
+      data += chunk;
+    });
+    
+    response.on('end', () => {
+      try {
+        const jsonData = JSON.parse(data);
+        console.log('jsonData', jsonData);
+        
+        // Transform the JSON data to match the expected structure
+        events = jsonData.map(transformEventData);
+        isUsingFallback = false;
+        lastFetchTime = new Date();
+        
+        console.log(`Successfully loaded ${events.length} events from Toronto Open Data API`);
+      } catch (error) {
+        console.error('Error parsing JSON data from API:', error);
+        console.log('Falling back to local event data...');
+        loadFallbackEvents();
+      }
+    });
+  });
+  
+  request.on('error', (error) => {
+    console.error('Error fetching events from API:', error);
+    console.log('Falling back to local event data...');
+    loadFallbackEvents();
+  });
+  
+  request.setTimeout(15000, () => {
+    console.error('Request timeout when fetching events from API');
+    request.destroy();
+    console.log('Falling back to local event data...');
+    loadFallbackEvents();
+  });
 }
 
 // API Routes
@@ -170,17 +252,29 @@ app.get('/api/areas', (req, res) => {
   res.json(Array.from(areas).sort());
 });
 
+// Refresh events from API
+app.post('/api/refresh', (req, res) => {
+  console.log('Refreshing events from API...');
+  fetchEventsFromAPI();
+  res.json({ 
+    message: 'Events refresh initiated',
+    timestamp: new Date().toISOString()
+  });
+});
+
 // Health check
 app.get('/api/health', (req, res) => {
   res.json({ 
     status: 'OK', 
     eventsLoaded: events.length,
+    dataSource: isUsingFallback ? 'Local fallback file (event-data.json)' : 'Toronto Open Data API',
+    lastFetchTime: lastFetchTime ? lastFetchTime.toISOString() : null,
     timestamp: new Date().toISOString()
   });
 });
 
-// Parse XML on startup
-parseEventsXML();
+// Fetch events from API on startup
+fetchEventsFromAPI();
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
