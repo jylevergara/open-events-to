@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import {
   Card,
   CardMedia,
@@ -32,15 +33,22 @@ export const EventCard: React.FC<EventCardProps> = ({
   event, 
   viewMode = 'grid' 
 }) => {
+  const navigate = useNavigate();
   const [expanded, setExpanded] = useState(false);
   const [showComments, setShowComments] = useState(false);
 
-  const handleExpandClick = () => {
+  const handleExpandClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
     setExpanded(!expanded);
   };
 
-  const handleCommentsClick = () => {
+  const handleCommentsClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
     setShowComments(!showComments);
+  };
+
+  const handleCardClick = () => {
+    navigate(`/event/${event.id}`);
   };
 
   const formatDate = (dateStr: string) => {
@@ -74,11 +82,17 @@ export const EventCard: React.FC<EventCardProps> = ({
 
   return (
     <Card
+      onClick={handleCardClick}
       sx={{
         height: isListView ? 'auto' : '100%',
         display: 'flex',
         flexDirection: isListView ? 'row' : 'column',
         transition: 'all 0.3s ease-in-out',
+        cursor: 'pointer',
+        '&:hover': {
+          transform: 'translateY(-2px)',
+          boxShadow: 3,
+        },
       }}
     >
       {/* Event Image */}

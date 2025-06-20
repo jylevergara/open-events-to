@@ -20,6 +20,7 @@ export interface Event {
   TimeEnd: string;
   Admission: string;
   LongDesc: string | string[];
+  Website?: string;
 }
 
 export interface EventFilters {

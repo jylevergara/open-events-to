@@ -112,7 +112,6 @@ function fetchEventsFromAPI() {
     response.on('end', () => {
       try {
         const jsonData = JSON.parse(data);
-        console.log('jsonData', jsonData);
         
         // Transform the JSON data to match the expected structure
         events = jsonData.map(transformEventData);
