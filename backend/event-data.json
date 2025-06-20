@@ -1,0 +1,3515 @@
+[
+  {
+    "calEvent": {
+      "categoryString": "Literary,Talks",
+      "accessibility": "none",
+      "isCityEvent": true,
+      "endDate": "2025-06-16T04:00:00.000Z",
+      "admin": {
+        "newsletterCategory": [],
+        "includeInMainCalendar": true,
+        "updatedBy": "ialdini",
+        "subsetCalendar": [{ "value": "9 ShowLoveTO" }],
+        "approvedTimestamp": "2025-05-05T14:12:10.786Z",
+        "includeInNewsletter": false,
+        "featuredEvent": false,
+        "approvedBy": "ialdini",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-05-05T14:12:10.785Z"
+      },
+      "description": "Holly Gramazio (game designer turned novelist) and Jim Munroe (novelist turned game designer) chat about writing, games, fiction, Jim's new graphic novel Zeroed Out, Holly's book about an attic full of endlessly spawning husbands -- and how The Husbands has been greenlit by Apple to be made into a TV series by A24 starring Juno Temple (Ted Lasso). Books on sale by Another Story.&#10;&#10;Toronto Video Game Month is set to bring the world of gaming to life! From adrenaline-pumping esports tournaments to massive outdoor games played under the open sky, this event is designed for all&#8212;from hardcore gamers to the game-curious. Immerse yourself in interactive experiences, discover the talent of Toronto&#8217;s local indie developers, and engage with major studio activations. Plus, tap into the industry at a prestigious video game conference, thought-provoking workshops, and expert talks on the future of gaming. It&#8217;s a month to discover, play, and connect with Toronto&#8217;s thriving gaming community!",
+      "orgAddress": "61 Heintzman Street #1512",
+      "frequency": "once",
+      "orgType": "Non-Profit",
+      "thumbImage": {
+        "fileName": "Icon-Conservatory_th.png",
+        "binId": "rFZ4I9F05s4kti2EgxRNcQ",
+        "fileSize": 53204,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Icon-Conservatory_th_rFZ4I9F05s4kti2EgxRNcQ.png"
+      },
+      "contactTitle": "Co-founder",
+      "terms": "agree",
+      "eventEmail": "marie@torontogamesweek.com",
+      "eventName": "The Playful Page: A Sci-Fi Rom-Com Conversation - Toronto Games Week",
+      "theme": [],
+      "themeString": "",
+      "expectedAvg": 100,
+      "subsetCalendarString": "9 ShowLoveTO",
+      "image": {
+        "fileName": "Icon-Conservatory.png",
+        "binId": "Ff_zx6iwV2lHVfGA7wod8w",
+        "altText": "Illustration of a glass dome or conservatory greenhouse with plants inside and a gold coin below it.",
+        "fileSize": 615547,
+        "credit": "Caitlin Russell",
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Icon-Conservatory_Ff_zx6iwV2lHVfGA7wod8w.png"
+      },
+      "orgName": "Toronto Games Week",
+      "partnerName": "Toronto Games Week",
+      "contactName": "Marie Claire LeBlanc Flanagan",
+      "dates": [
+        {
+          "startDateTime": "2025-06-16T22:00:00.000Z",
+          "endDateTime": "2025-06-17T00:00:00.000Z"
+        }
+      ],
+      "endDateTime": "2025-06-17T00:00:00.000Z",
+      "isWidgetEvent": false,
+      "orgPhone": "4383468025",
+      "freeEvent": "Yes",
+      "startDateTime": "2025-06-16T22:00:00.000Z",
+      "reservationsRequired": "No",
+      "orgEmail": "marie@torontogamesweek.com",
+      "locations": [
+        {
+          "locationName": "Palmerston Public Library (Lower Theatre)",
+          "address": "560 Palmerston Ave, Toronto, ON M6G 2P7, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "696799e5-895d-99b6-a2c1-69316fd01484",
+          "type": "marker",
+          "$$hashKey": "object:41547",
+          "coords": { "lng": -79.41415740000001, "lat": 43.6651019 }
+        }
+      ],
+      "partnerType": "presentedby",
+      "category": [{ "name": "Literary" }, { "name": "Talks" }],
+      "eventWebsite": "https://torontogamesweek.com",
+      "recId": "dAaHtIj1ZfoYRNtOIhvOaA",
+      "startDate": "2025-06-16T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Arts/Exhibits,Seminars/Workshops",
+      "accessibility": "none",
+      "endDate": "2025-05-12T03:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Edited and approved by Yiheng Li 05/07/2025. Title of event, description and date and times have been edited.",
+        "newsletterCategory": [],
+        "updatedBy": "ylie",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-05-07T14:39:50.780Z",
+        "includeInNewsletter": false,
+        "featuredEvent": false,
+        "approvedBy": "ylie",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-05-07T14:39:50.780Z"
+      },
+      "description": "Stimulate your senses as you play with glowing colours in our black light art studio. Let loose and express yourself in a fun and fluid way with this satisfying art technique. Embrace unpredictable patterns and create a piece of art as unique as a finger print. No experience needed.",
+      "orgAddress": "1226 Kingston Road",
+      "frequency": "dates",
+      "features": { "Paid Parking": true, "Public Washrooms": true },
+      "orgType": "Private/Business",
+      "thumbImage": {
+        "fileName": "glow pourca_th.png",
+        "binId": "vmlDs4i9vBzVMc0UK3CIOA",
+        "fileSize": 30530,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/glow pourca_th_vmlDs4i9vBzVMc0UK3CIOA.png"
+      },
+      "terms": "agree",
+      "eventEmail": "events@artboxtoronto.com",
+      "eventName": "Glow-in-the-Dark Paint Pouring Workshop",
+      "reservation": {
+        "website": "https://www.artboxstudiogallery.com/event-details-registration/glow-in-the-dark-paint-pouring-workshop-2025-05-11-18-30",
+        "phone": "4166909550",
+        "email": "events@artboxtoronto.com"
+      },
+      "theme": [],
+      "themeString": "",
+      "subsetCalendarString": "",
+      "admissionType": "Rng",
+      "image": {
+        "fileName": "glow pourca.jpg",
+        "binId": "8pKXFS-8Ay_YGpCc5yk1-Q",
+        "altText": "Glow in the dark pink bear is in front of a green glow in the dark art piece, set against a blue and black smoke background.",
+        "fileSize": 1023897,
+        "fileType": "image/jpeg",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/glow pourca_8pKXFS-8Ay_YGpCc5yk1-Q.jpg"
+      },
+      "cost": { "from": 63.64, "to": 98.39 },
+      "orgName": "Artbox Studio &amp; Gallery",
+      "contactName": "Natasha. A",
+      "eventPhone": "4166909550",
+      "dates": [
+        {
+          "startDateTime": "2025-05-11T21:30:00.000Z",
+          "endDateTime": "2025-05-11T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-10T19:00:00.000Z",
+          "endDateTime": "2025-05-10T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-08T22:30:00.000Z",
+          "endDateTime": "2025-05-09T00:30:00.000Z"
+        }
+      ],
+      "isWidgetEvent": false,
+      "orgPhone": "4166909550",
+      "freeEvent": "No",
+      "reservationsRequired": "Yes",
+      "orgEmail": "events@artboxtoronto.com",
+      "locations": [
+        {
+          "locationName": "Artbox Studio &amp; Gallery",
+          "address": "1226 Kingston Rd, Toronto, ON M1N 1P3, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "2b29e436-4a6e-936c-c5ca-625119608992",
+          "type": "marker",
+          "$$hashKey": "object:5232",
+          "coords": { "lng": -79.2789054, "lat": 43.682599 }
+        }
+      ],
+      "partnerType": "none",
+      "category": [
+        { "name": "Arts/Exhibits" },
+        { "name": "Seminars/Workshops" }
+      ],
+      "eventWebsite": "https://www.artboxstudiogallery.com",
+      "recId": "eDrWtjT4IDKvsQaDy0Iy2Q",
+      "startDate": "2025-05-09T03:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Arts/Exhibits",
+      "accessibility": "none",
+      "endDate": "2025-05-18T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Approved and edited by Yiheng Li 05/14/2025. Edited description, image description and time detail.",
+        "newsletterCategory": [],
+        "updatedBy": "ylie",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-05-14T20:22:01.107Z",
+        "includeInNewsletter": false,
+        "featuredEvent": false,
+        "approvedBy": "ylie",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-05-14T20:22:01.107Z"
+      },
+      "description": "Capture the warmth and texture of fresh lemons in this class, perfect for beginners and art lovers alike. Learn step-by-step techniques while creating your own colourful still life painting.",
+      "orgAddress": "1226 Kingston Road",
+      "frequency": "once",
+      "features": { "Paid Parking": true, "Public Washrooms": true },
+      "orgType": "Private/Business",
+      "thumbImage": {
+        "fileName": "22_th.png",
+        "binId": "DP-0QtwBLFu_piKyCFD3_A",
+        "fileSize": 11230,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/22_th_DP-0QtwBLFu_piKyCFD3_A.png"
+      },
+      "terms": "agree",
+      "eventEmail": "events@artboxtoronto.com",
+      "eventName": "Oil Painting Workshop",
+      "reservation": {
+        "website": "https://www.artboxstudiogallery.com/event-details-registration/oil-painting-workshop-2025-05-18-15-30",
+        "phone": "4166909550",
+        "email": "events@artboxtoronto.com"
+      },
+      "theme": [],
+      "themeString": "",
+      "subsetCalendarString": "",
+      "admissionType": "GA",
+      "image": {
+        "fileName": "22.jpg",
+        "binId": "5w3UMjzr02LAwY6qI27Itg",
+        "altText": "Painted lemons on a blue background, all set on a yellow background.",
+        "fileSize": 55442,
+        "fileType": "image/jpeg",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/22_5w3UMjzr02LAwY6qI27Itg.jpg"
+      },
+      "cost": { "ga": 52.06 },
+      "orgName": "Artbox Studio &amp; Gallery",
+      "contactName": "Natasha. A",
+      "eventPhone": "4166909550",
+      "dates": [
+        {
+          "startDateTime": "2025-05-18T20:00:00.000Z",
+          "endDateTime": "2025-05-18T22:00:00.000Z"
+        }
+      ],
+      "endDateTime": "2025-05-18T22:00:00.000Z",
+      "isWidgetEvent": false,
+      "orgPhone": "4166909550",
+      "freeEvent": "No",
+      "startDateTime": "2025-05-18T20:00:00.000Z",
+      "reservationsRequired": "Yes",
+      "orgEmail": "events@artboxtoronto.com",
+      "locations": [
+        {
+          "locationName": "Artbox Studio and Gallery",
+          "address": "1226 Kingston Rd, Toronto, ON M1N 1P3, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "0ea3dede-94f7-9ec8-6ce2-7e131f94da4a",
+          "type": "marker",
+          "$$hashKey": "object:17014",
+          "coords": { "lng": -79.2789054, "lat": 43.682599 }
+        }
+      ],
+      "partnerType": "none",
+      "category": [{ "name": "Arts/Exhibits" }],
+      "eventWebsite": "https://www.artboxstudiogallery.com",
+      "recId": "TVLFwmHQxQOwAGaAtTtNcw",
+      "startDate": "2025-05-18T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Family/Children,Food/Culinary,Live Performances",
+      "accessibility": "full",
+      "endDate": "2025-06-28T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Edited and approved by Yiheng Li 05/21/2025. Edited description and time details. Image removed due to text.",
+        "newsletterCategory": [],
+        "updatedBy": "ylie",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-05-21T20:48:38.201Z",
+        "includeInNewsletter": false,
+        "featuredEvent": false,
+        "approvedBy": "ylie",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-05-21T20:48:38.201Z"
+      },
+      "description": "An annual vibrant cultural festival celebrating the rich heritage and diversity of East African communities in Toronto. Presented by Gisha Nankunda Arts Association (GNNA), in collaboration with Helping Neighbourhoods Implement Change (HNIC) and Elinan Kreations. &#10;&#10;Featuring traditional East African cuisine, music and dance performances, cultural exhibits and workshops, a market showcasing local artisans and vendors, children's activities and entertainment.",
+      "orgAddress": "36 Anson Avenue",
+      "frequency": "once",
+      "features": {
+        "Paid Parking": true,
+        "Onsite Food and Beverages": true,
+        "Public Washrooms": true,
+        "Free Parking": true
+      },
+      "allDay": false,
+      "orgType": "Non-Profit",
+      "thumbImage": {},
+      "contactTitle": "Founder &amp; Executive Director",
+      "terms": "agree",
+      "eventEmail": "theeastafricanexperience@gmail.com",
+      "eventName": "The East African Experience 2025",
+      "theme": [{ "name": "Cultural Hotspot Program" }],
+      "themeString": "Cultural Hotspot Program",
+      "expectedAvg": 2000,
+      "subsetCalendarString": "",
+      "orgName": "Gisha Nankunda Arts Association",
+      "otherCostInfo": "",
+      "partnerName": "Toronto Arts Council, City of Toronto and Government of Canada Through Canadian Heritage",
+      "contactName": "Gloria Gift Nankunda",
+      "eventPhone": "6477048495",
+      "dates": [
+        {
+          "startDateTime": "2025-06-28T16:00:00.000Z",
+          "endDateTime": "2025-06-29T01:00:00.000Z"
+        }
+      ],
+      "endDateTime": "2025-06-29T01:00:00.000Z",
+      "isWidgetEvent": false,
+      "orgPhone": "6477048495",
+      "freeEvent": "Yes",
+      "startDateTime": "2025-06-28T16:00:00.000Z",
+      "timeInfo": "",
+      "reservationsRequired": "No",
+      "orgEmail": "gishanankundaarts@gmail.com",
+      "locations": [
+        {
+          "locationName": "Regent Park",
+          "address": "600 Dundas St E, Toronto, ON M5A 2B9, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "b45a58ce-4ee1-4cc7-2d29-182a6dc6eb1b",
+          "type": "marker",
+          "$$hashKey": "object:15950",
+          "coords": { "lng": -79.36231699999999, "lat": 43.6604669 }
+        }
+      ],
+      "partnerType": "fundedby",
+      "category": [
+        { "name": "Family/Children" },
+        { "name": "Food/Culinary" },
+        { "name": "Live Performances" }
+      ],
+      "eventWebsite": "https://www.instagram.com/theeastafricanexperience?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw==",
+      "recId": "z$mCdbfRfCX9BKailZCJtA",
+      "startDate": "2025-06-28T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Arts/Exhibits,Seminars/Workshops",
+      "accessibility": "none",
+      "endDate": "2025-06-17T03:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Edited and approved by Yiheng Li 06/02/2025. Edited description.",
+        "newsletterCategory": [],
+        "updatedBy": "ylie",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-06-02T14:49:33.283Z",
+        "includeInNewsletter": false,
+        "featuredEvent": false,
+        "approvedBy": "ylie",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-06-02T14:49:33.283Z"
+      },
+      "description": "Capture the warmth and texture of fresh lemons perfect for beginners and art lovers alike. Learn step-by-step techniques while creating your own colourful still life painting.",
+      "orgAddress": "1226 Kingston Road",
+      "frequency": "dates",
+      "features": { "Paid Parking": true, "Public Washrooms": true },
+      "orgType": "Private/Business",
+      "thumbImage": {
+        "fileName": "22_th.png",
+        "binId": "Revob1VL2lEYu14aG7aWtA",
+        "fileSize": 11230,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/22_th_Revob1VL2lEYu14aG7aWtA.png"
+      },
+      "terms": "agree",
+      "eventEmail": "events@artboxtoronto.com",
+      "eventName": "Oil Painting Workshop",
+      "reservation": {
+        "website": "https://www.artboxstudiogallery.com/event-details-registration/oil-painting-workshop-2025-06-03-19-30",
+        "phone": "4166909550",
+        "email": "events@artboxtoronto.com"
+      },
+      "theme": [],
+      "themeString": "",
+      "subsetCalendarString": "",
+      "admissionType": "GA",
+      "image": {
+        "fileName": "22.jpg",
+        "binId": "gEKR8o9BDsZ9T18XAXKUMA",
+        "altText": "Yellow lemons set against a bright blue background",
+        "fileSize": 55442,
+        "fileType": "image/jpeg",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/22_gEKR8o9BDsZ9T18XAXKUMA.jpg"
+      },
+      "cost": { "ga": 44.95 },
+      "orgName": "Artbox Studio &amp; Gallery",
+      "contactName": "Natasha. A",
+      "eventPhone": "4166909550",
+      "dates": [
+        {
+          "startDateTime": "2025-06-03T23:30:00.000Z",
+          "endDateTime": "2025-06-04T01:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-15T16:00:00.000Z",
+          "endDateTime": "2025-06-15T18:00:00.000Z"
+        }
+      ],
+      "isWidgetEvent": false,
+      "orgPhone": "4166909550",
+      "freeEvent": "No",
+      "reservationsRequired": "Yes",
+      "orgEmail": "events@artboxtoronto.com",
+      "locations": [
+        {
+          "locationName": "Artbox Studio and Gallery",
+          "address": "1226 Kingston Rd, Scarborough, ON M1N 1P3, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "2c4d5a2f-3be9-8286-339d-acc4a4589202",
+          "type": "marker",
+          "$$hashKey": "object:22560",
+          "coords": { "lng": -79.2785682, "lat": 43.6827551 }
+        }
+      ],
+      "partnerType": "none",
+      "category": [
+        { "name": "Arts/Exhibits" },
+        { "name": "Seminars/Workshops" }
+      ],
+      "eventWebsite": "https://www.artboxstudiogallery.com",
+      "recId": "1GwZDzQOj19bzfs31QHdeA",
+      "startDate": "2025-06-04T03:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Arts/Exhibits",
+      "accessibility": "full",
+      "endDate": "2025-06-12T04:00:00.000Z",
+      "isCityEvent": true,
+      "admin": {
+        "reviewerComments": "Approved by Zarita, Dec 20",
+        "newsletterCategory": [],
+        "includeInMainCalendar": true,
+        "updatedBy": "zadhiam",
+        "subsetCalendar": [
+          { "value": "1 HAC Exhibits Events" },
+          { "value": "12 Assembly Hall" }
+        ],
+        "approvedTimestamp": "2024-12-20T20:30:38.625Z",
+        "includeInNewsletter": false,
+        "featuredEvent": false,
+        "approvedBy": "zadhiam",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2024-12-20T20:30:38.625Z"
+      },
+      "description": "Experience Hong Yu (Casey) Chan&#8217;s showcase of stunning photography capturing profound connections between nature and humanity, including fleeting moments and the beauty of everyday life.",
+      "orgAddress": "1 Colonel Samuel Smith Park Drive, Toronto, Ontario, M8V 4B6",
+      "frequency": "weekly",
+      "features": {
+        "Paid Parking": true,
+        "Public Washrooms": true,
+        "Bike Racks": true,
+        "Free Parking": true
+      },
+      "orgType": "Public Agency",
+      "thumbImage": {
+        "fileName": "May_Hong Yu Casey_Celebrating Hope Embracing - Life in Toronto (1)_th.png",
+        "binId": "5Yhuu_M5TEScWylljdRvuQ",
+        "fileSize": 45969,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/May_Hong Yu Casey_Celebrating Hope Embracing - Life in Toronto (1)_th_5Yhuu_M5TEScWylljdRvuQ.png"
+      },
+      "terms": "agree",
+      "eventEmail": "assembly@toronto.ca",
+      "eventName": "Diversified Life: A Visual Journey Through Cultures  Art Exhibition",
+      "theme": [],
+      "themeString": "",
+      "expectedAvg": null,
+      "subsetCalendarString": "1 HAC Exhibits Events,12 Assembly Hall",
+      "eventPhoneExt": "",
+      "image": {
+        "fileName": "May_Hong Yu Casey_Celebrating Hope Embracing - Life in Toronto (1).png",
+        "binId": "un88nbOC7JqYS5Mwse6xqw",
+        "altText": "A black woman in a yellow dress and white turban smiling at the camera standing in front of a street car",
+        "fileSize": 1251546,
+        "credit": "Celebrating Hope, Embracing Life by Hong Yu Chan",
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/May_Hong Yu Casey_Celebrating Hope Embracing - Life in Toronto (1)_un88nbOC7JqYS5Mwse6xqw.png"
+      },
+      "orgName": "City of Toronto",
+      "partnerName": "Assembly Hall",
+      "contactName": "Assembly Hall",
+      "eventPhone": "4163387255",
+      "weeklyDates": [
+        {
+          "weekDay": [{ "day": "Monday" }],
+          "startTime": "2024-12-02T14:00:00.000Z",
+          "endTime": "2024-12-02T22:00:00.000Z",
+          "$$hashKey": "object:12865"
+        },
+        {
+          "weekDay": [{ "day": "Tuesday" }],
+          "startTime": "2024-12-02T14:00:00.000Z",
+          "endTime": "2024-12-02T22:00:00.000Z",
+          "$$hashKey": "object:12866"
+        },
+        {
+          "weekDay": [{ "day": "Wednesday" }],
+          "startTime": "2024-12-02T14:00:00.000Z",
+          "endTime": "2024-12-02T22:00:00.000Z",
+          "$$hashKey": "object:12867"
+        },
+        {
+          "weekDay": [{ "day": "Thursday" }],
+          "startTime": "2024-12-02T14:00:00.000Z",
+          "endTime": "2024-12-02T22:00:00.000Z",
+          "$$hashKey": "object:12868"
+        },
+        {
+          "weekDay": [{ "day": "Friday" }],
+          "startTime": "2024-12-02T14:00:00.000Z",
+          "endTime": "2024-12-02T22:00:00.000Z",
+          "$$hashKey": "object:12869"
+        },
+        {
+          "weekDay": [{ "day": "Saturday" }],
+          "startTime": "2024-12-02T15:00:00.000Z",
+          "endTime": "2024-12-02T18:00:00.000Z",
+          "$$hashKey": "object:12870"
+        }
+      ],
+      "dates": [
+        {
+          "startDateTime": "2025-05-19T13:00:00.000Z",
+          "endDateTime": "2025-05-19T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-26T13:00:00.000Z",
+          "endDateTime": "2025-05-26T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-02T13:00:00.000Z",
+          "endDateTime": "2025-06-02T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-09T13:00:00.000Z",
+          "endDateTime": "2025-06-09T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-20T13:00:00.000Z",
+          "endDateTime": "2025-05-20T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-27T13:00:00.000Z",
+          "endDateTime": "2025-05-27T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-03T13:00:00.000Z",
+          "endDateTime": "2025-06-03T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-10T13:00:00.000Z",
+          "endDateTime": "2025-06-10T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-14T13:00:00.000Z",
+          "endDateTime": "2025-05-14T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-21T13:00:00.000Z",
+          "endDateTime": "2025-05-21T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-28T13:00:00.000Z",
+          "endDateTime": "2025-05-28T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-04T13:00:00.000Z",
+          "endDateTime": "2025-06-04T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-11T13:00:00.000Z",
+          "endDateTime": "2025-06-11T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-15T13:00:00.000Z",
+          "endDateTime": "2025-05-15T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-22T13:00:00.000Z",
+          "endDateTime": "2025-05-22T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-29T13:00:00.000Z",
+          "endDateTime": "2025-05-29T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-05T13:00:00.000Z",
+          "endDateTime": "2025-06-05T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-12T13:00:00.000Z",
+          "endDateTime": "2025-06-12T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-16T13:00:00.000Z",
+          "endDateTime": "2025-05-16T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-23T13:00:00.000Z",
+          "endDateTime": "2025-05-23T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-30T13:00:00.000Z",
+          "endDateTime": "2025-05-30T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-06T13:00:00.000Z",
+          "endDateTime": "2025-06-06T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-17T14:00:00.000Z",
+          "endDateTime": "2025-05-17T17:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-24T14:00:00.000Z",
+          "endDateTime": "2025-05-24T17:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-31T14:00:00.000Z",
+          "endDateTime": "2025-05-31T17:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-07T14:00:00.000Z",
+          "endDateTime": "2025-06-07T17:00:00.000Z"
+        }
+      ],
+      "isWidgetEvent": false,
+      "orgPhone": "4163387255",
+      "freeEvent": "Yes",
+      "timeInfo": "Opening Reception: May 15, 6 p.m. &#10;The gallery is closed on Sundays and all the statutory holidays.",
+      "reservationsRequired": "No",
+      "orgEmail": "assembly@toronto.ca",
+      "locations": [
+        {
+          "locationName": "Assembly Hall",
+          "address": "1 Colonel Samuel Smith Park Dr, Etobicoke, ON M8V 4B6, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "f6a24c32-26b8-9445-7cd8-dc59a90ac109",
+          "type": "marker",
+          "$$hashKey": "object:12863",
+          "coords": { "lng": -79.5158459, "lat": 43.59765460000001 }
+        }
+      ],
+      "partnerType": "presentedby",
+      "category": [{ "name": "Arts/Exhibits" }],
+      "eventWebsite": "http://toronto.ca/assemblyhall",
+      "recId": "4iYbOeoDVqHfVHiLHfuihg",
+      "startDate": "2025-05-14T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Arts/Exhibits",
+      "accessibility": "full",
+      "endDate": "2025-11-06T05:00:00.000Z",
+      "isCityEvent": true,
+      "admin": {
+        "reviewerComments": "Approved by Zarita, Dec 20",
+        "newsletterCategory": [],
+        "includeInMainCalendar": true,
+        "updatedBy": "zadhiam",
+        "subsetCalendar": [
+          { "value": "1 HAC Exhibits Events" },
+          { "value": "12 Assembly Hall" }
+        ],
+        "approvedTimestamp": "2024-12-20T20:48:43.771Z",
+        "includeInNewsletter": false,
+        "featuredEvent": false,
+        "approvedBy": "zadhiam",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2024-12-20T20:48:43.771Z"
+      },
+      "description": "Encounter images transformed from many unrelated sources into new and surprising collage artworks. Found papers and objects, painted papers, and digital images shape new visions and dynamic ideas. Presented by the EAG Collage Collective.",
+      "orgAddress": "1 Colonel Samuel Smith Park Drive, Toronto, Ontario, M8V 4B6",
+      "frequency": "weekly",
+      "features": {
+        "Paid Parking": true,
+        "Public Washrooms": true,
+        "Bike Racks": true,
+        "Free Parking": true
+      },
+      "orgType": "Public Agency",
+      "thumbImage": {
+        "fileName": "Oct EAG Collective_RosemaryVanderBreggen_Once Upon a Woods_paper collage_18 h x24w (1)_th.png",
+        "binId": "rrS3XOWvVVQj__DUTfBb2Q",
+        "fileSize": 35918,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Oct EAG Collective_RosemaryVanderBreggen_Once Upon a Woods_paper collage_18 h x24w (1)_th_rrS3XOWvVVQj__DUTfBb2Q.png"
+      },
+      "terms": "agree",
+      "eventEmail": "assembly@toronto.ca",
+      "eventName": "Bits &amp; Pieces Art Exhibition",
+      "theme": [],
+      "themeString": "",
+      "subsetCalendarString": "1 HAC Exhibits Events,12 Assembly Hall",
+      "image": {
+        "fileName": "Oct EAG Collective_RosemaryVanderBreggen_Once Upon a Woods_paper collage_18 h x24w (1).png",
+        "binId": "E9nbwPpsFEDhqfvdN_SGAA",
+        "altText": "Collage of mixed objects cut in black, white, blue and red illustrations.",
+        "fileSize": 1053440,
+        "credit": "Once Upon A Woods by Rosemary Vanderbreggen",
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Oct EAG Collective_RosemaryVanderBreggen_Once Upon a Woods_paper collage_18 h x24w (1)_E9nbwPpsFEDhqfvdN_SGAA.png"
+      },
+      "orgName": "City of Toronto",
+      "partnerName": "Assembly Hall",
+      "contactName": "Assembly Hall",
+      "eventPhone": "4163387255",
+      "weeklyDates": [
+        {
+          "weekDay": [{ "day": "Monday" }],
+          "startTime": "2024-12-02T14:00:00.000Z",
+          "endTime": "2024-12-02T22:00:00.000Z",
+          "$$hashKey": "object:17137"
+        },
+        {
+          "weekDay": [{ "day": "Tuesday" }],
+          "startTime": "2024-12-02T14:00:00.000Z",
+          "endTime": "2024-12-02T22:00:00.000Z",
+          "$$hashKey": "object:17138"
+        },
+        {
+          "weekDay": [{ "day": "Wednesday" }],
+          "startTime": "2024-12-02T14:00:00.000Z",
+          "endTime": "2024-12-02T22:00:00.000Z",
+          "$$hashKey": "object:17139"
+        },
+        {
+          "weekDay": [{ "day": "Thursday" }],
+          "startTime": "2024-12-02T14:00:00.000Z",
+          "endTime": "2024-12-02T22:00:00.000Z",
+          "$$hashKey": "object:17140"
+        },
+        {
+          "weekDay": [{ "day": "Friday" }],
+          "startTime": "2024-12-02T14:00:00.000Z",
+          "endTime": "2024-12-02T22:00:00.000Z",
+          "$$hashKey": "object:17141"
+        },
+        {
+          "weekDay": [{ "day": "Saturday" }],
+          "startTime": "2024-12-02T15:00:00.000Z",
+          "endTime": "2024-12-02T18:00:00.000Z",
+          "$$hashKey": "object:17142"
+        }
+      ],
+      "dates": [
+        {
+          "startDateTime": "2025-10-13T13:00:00.000Z",
+          "endDateTime": "2025-10-13T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-20T13:00:00.000Z",
+          "endDateTime": "2025-10-20T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-27T13:00:00.000Z",
+          "endDateTime": "2025-10-27T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-11-03T14:00:00.000Z",
+          "endDateTime": "2025-11-03T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-14T13:00:00.000Z",
+          "endDateTime": "2025-10-14T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-21T13:00:00.000Z",
+          "endDateTime": "2025-10-21T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-28T13:00:00.000Z",
+          "endDateTime": "2025-10-28T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-11-04T14:00:00.000Z",
+          "endDateTime": "2025-11-04T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-08T13:00:00.000Z",
+          "endDateTime": "2025-10-08T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-15T13:00:00.000Z",
+          "endDateTime": "2025-10-15T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-22T13:00:00.000Z",
+          "endDateTime": "2025-10-22T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-29T13:00:00.000Z",
+          "endDateTime": "2025-10-29T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-11-05T14:00:00.000Z",
+          "endDateTime": "2025-11-05T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-09T13:00:00.000Z",
+          "endDateTime": "2025-10-09T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-16T13:00:00.000Z",
+          "endDateTime": "2025-10-16T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-23T13:00:00.000Z",
+          "endDateTime": "2025-10-23T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-30T13:00:00.000Z",
+          "endDateTime": "2025-10-30T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-11-06T14:00:00.000Z",
+          "endDateTime": "2025-11-06T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-10T13:00:00.000Z",
+          "endDateTime": "2025-10-10T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-17T13:00:00.000Z",
+          "endDateTime": "2025-10-17T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-24T13:00:00.000Z",
+          "endDateTime": "2025-10-24T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-31T13:00:00.000Z",
+          "endDateTime": "2025-10-31T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-11T14:00:00.000Z",
+          "endDateTime": "2025-10-11T17:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-18T14:00:00.000Z",
+          "endDateTime": "2025-10-18T17:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-25T14:00:00.000Z",
+          "endDateTime": "2025-10-25T17:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-11-01T14:00:00.000Z",
+          "endDateTime": "2025-11-01T17:00:00.000Z"
+        }
+      ],
+      "isWidgetEvent": false,
+      "orgPhone": "4163387255",
+      "freeEvent": "Yes",
+      "timeInfo": "Opening Reception: October 9, 6 p.m.&#10;The gallery is closed on Sundays and all the statutory holidays.",
+      "reservationsRequired": "No",
+      "orgEmail": "assembly@toronto.ca",
+      "locations": [
+        {
+          "locationName": "Assembly Hall",
+          "address": "1 Colonel Samuel Smith Park Dr, Etobicoke, ON M8V 4B6, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "e9ccc8c3-379c-3e4f-a6a4-adaed93260ad",
+          "type": "marker",
+          "$$hashKey": "object:17135",
+          "coords": { "lng": -79.5158459, "lat": 43.59765460000001 }
+        }
+      ],
+      "partnerType": "presentedby",
+      "category": [{ "name": "Arts/Exhibits" }],
+      "eventWebsite": "http://toronto.ca/assemblyhall",
+      "recId": "l6if4Fq1oHzq938Uidz10A",
+      "startDate": "2025-10-08T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Arts/Exhibits",
+      "accessibility": "full",
+      "endDate": "2025-12-17T05:00:00.000Z",
+      "isCityEvent": true,
+      "admin": {
+        "newsletterCategory": [],
+        "includeInMainCalendar": true,
+        "updatedBy": "zadhiam",
+        "subsetCalendar": [
+          { "value": "1 HAC Exhibits Events" },
+          { "value": "12 Assembly Hall" }
+        ],
+        "approvedTimestamp": "2024-12-20T20:50:44.323Z",
+        "includeInNewsletter": false,
+        "featuredEvent": false,
+        "approvedBy": "zadhiam",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2024-12-20T20:50:44.323Z"
+      },
+      "description": "Created by students from local schools, the works in this exhibition speaks to the seasonal changes from autumn to winter, like snowfalls and long periods of darkness, and the cultural traditions they help shape.",
+      "orgAddress": "1 Colonel Samuel Smith Park Drive, Toronto, Ontario, M8V 4B6",
+      "frequency": "weekly",
+      "features": {
+        "Paid Parking": true,
+        "Bike Racks": true,
+        "Free Parking": true
+      },
+      "orgType": "Public Agency",
+      "thumbImage": {
+        "fileName": "Nov_Tis the Season (1) (1)_th.png",
+        "binId": "WpEQ68ku2OGLzH8dZCLn4g",
+        "fileSize": 48009,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Nov_Tis the Season (1) (1)_th_WpEQ68ku2OGLzH8dZCLn4g.png"
+      },
+      "terms": "agree",
+      "eventEmail": "assembly@toronto.ca",
+      "eventName": "Tis the Season Art Exhibition",
+      "theme": [{ "name": "Holiday Events" }],
+      "themeString": "Holiday Events",
+      "subsetCalendarString": "1 HAC Exhibits Events,12 Assembly Hall",
+      "image": {
+        "fileName": "Nov_Tis the Season (1) (1).jpg",
+        "binId": "QMwBq5BXTdHTfipN29NrJA",
+        "altText": "A child standing in front of artwork on a gallery wall, pointing to a painting of a human figure wearing a red and white Christmas hat",
+        "fileSize": 1698714,
+        "fileType": "image/jpeg",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Nov_Tis the Season (1) (1)_QMwBq5BXTdHTfipN29NrJA.jpg"
+      },
+      "orgName": "City of Toronto",
+      "partnerName": "Assembly Hall",
+      "contactName": "Assembly Hall",
+      "eventPhone": "4163387255",
+      "weeklyDates": [
+        {
+          "weekDay": [{ "day": "Monday" }],
+          "startTime": "2024-12-02T14:00:00.000Z",
+          "endTime": "2024-12-02T22:00:00.000Z",
+          "$$hashKey": "object:18556"
+        },
+        {
+          "weekDay": [{ "day": "Tuesday" }],
+          "startTime": "2024-12-02T14:00:00.000Z",
+          "endTime": "2024-12-02T22:00:00.000Z",
+          "$$hashKey": "object:18557"
+        },
+        {
+          "weekDay": [{ "day": "Wednesday" }],
+          "startTime": "2024-12-02T14:00:00.000Z",
+          "endTime": "2024-12-02T22:00:00.000Z",
+          "$$hashKey": "object:18558"
+        },
+        {
+          "weekDay": [{ "day": "Thursday" }],
+          "startTime": "2024-12-02T14:00:00.000Z",
+          "endTime": "2024-12-02T22:00:00.000Z",
+          "$$hashKey": "object:18559"
+        },
+        {
+          "weekDay": [{ "day": "Friday" }],
+          "startTime": "2024-12-02T14:00:00.000Z",
+          "endTime": "2024-12-02T22:00:00.000Z",
+          "$$hashKey": "object:18560"
+        },
+        {
+          "weekDay": [{ "day": "Saturday" }],
+          "startTime": "2024-12-02T15:00:00.000Z",
+          "endTime": "2024-12-02T18:00:00.000Z",
+          "$$hashKey": "object:18561"
+        }
+      ],
+      "dates": [
+        {
+          "startDateTime": "2025-11-24T14:00:00.000Z",
+          "endDateTime": "2025-11-24T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-12-01T14:00:00.000Z",
+          "endDateTime": "2025-12-01T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-12-08T14:00:00.000Z",
+          "endDateTime": "2025-12-08T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-12-15T14:00:00.000Z",
+          "endDateTime": "2025-12-15T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-11-18T14:00:00.000Z",
+          "endDateTime": "2025-11-18T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-11-25T14:00:00.000Z",
+          "endDateTime": "2025-11-25T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-12-02T14:00:00.000Z",
+          "endDateTime": "2025-12-02T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-12-09T14:00:00.000Z",
+          "endDateTime": "2025-12-09T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-12-16T14:00:00.000Z",
+          "endDateTime": "2025-12-16T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-11-19T14:00:00.000Z",
+          "endDateTime": "2025-11-19T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-11-26T14:00:00.000Z",
+          "endDateTime": "2025-11-26T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-12-03T14:00:00.000Z",
+          "endDateTime": "2025-12-03T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-12-10T14:00:00.000Z",
+          "endDateTime": "2025-12-10T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-12-17T14:00:00.000Z",
+          "endDateTime": "2025-12-17T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-11-20T14:00:00.000Z",
+          "endDateTime": "2025-11-20T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-11-27T14:00:00.000Z",
+          "endDateTime": "2025-11-27T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-12-04T14:00:00.000Z",
+          "endDateTime": "2025-12-04T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-12-11T14:00:00.000Z",
+          "endDateTime": "2025-12-11T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-11-21T14:00:00.000Z",
+          "endDateTime": "2025-11-21T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-11-28T14:00:00.000Z",
+          "endDateTime": "2025-11-28T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-12-05T14:00:00.000Z",
+          "endDateTime": "2025-12-05T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-12-12T14:00:00.000Z",
+          "endDateTime": "2025-12-12T22:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-11-22T15:00:00.000Z",
+          "endDateTime": "2025-11-22T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-11-29T15:00:00.000Z",
+          "endDateTime": "2025-11-29T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-12-06T15:00:00.000Z",
+          "endDateTime": "2025-12-06T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-12-13T15:00:00.000Z",
+          "endDateTime": "2025-12-13T18:00:00.000Z"
+        }
+      ],
+      "isWidgetEvent": false,
+      "orgPhone": "4163387255",
+      "freeEvent": "Yes",
+      "timeInfo": "Community Open House: November 26, 6:30 p.m.&#10;The gallery is closed on Sundays and all the statutory holidays.",
+      "reservationsRequired": "No",
+      "orgEmail": "assembly@toronto.ca",
+      "locations": [
+        {
+          "locationName": "Assembly Hall",
+          "address": "1 Colonel Samuel Smith Park Dr, Etobicoke, ON M8V 4B6, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "9d133cc4-ec27-fee8-458c-31f6eaca4d32",
+          "type": "marker",
+          "$$hashKey": "object:18554",
+          "coords": { "lng": -79.5158459, "lat": 43.59765460000001 }
+        }
+      ],
+      "partnerType": "presentedby",
+      "category": [{ "name": "Arts/Exhibits" }],
+      "eventWebsite": "http://toronto.ca/assemblyhall",
+      "recId": "Yy8CCQ8098a_$1P2qnMH1A",
+      "startDate": "2025-11-18T05:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Farmers Market",
+      "accessibility": "full",
+      "endDate": "2025-10-07T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Edited and approved by YIheng Li 05/20/2025. Edited description, time and location details.",
+        "newsletterCategory": [],
+        "updatedBy": "ylie",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-05-20T19:56:39.783Z",
+        "includeInNewsletter": false,
+        "featuredEvent": false,
+        "approvedBy": "ylie",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-05-20T19:56:39.783Z"
+      },
+      "description": "Celebrating our fifth season at beautiful, Rosebank Park!&#10;&#10;Our market aims to promote Ontario, Family Farms, area businesses, farm-fresh, local, produce and a range of products that reflect Scarborough&#8217;s rich diversity. &#10;&#10;We welcome you to come chill, unwind and have a cool time with your friendly neighbourhood, Scarborough Farmers' Market Family.",
+      "orgAddress": "12-1991 Victoria Park Avenue, Scarborough",
+      "frequency": "weekly",
+      "features": {
+        "Onsite Food and Beverages": true,
+        "Public Washrooms": true,
+        "Free Parking": true
+      },
+      "orgType": "Non-Profit",
+      "thumbImage": {
+        "fileName": "8HzyAimbH7RFrBNNTAhVnA_th.png",
+        "binId": "qqQ0k9seCuQWtcd9T9sOQQ",
+        "fileSize": 23613,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/8HzyAimbH7RFrBNNTAhVnA_th_qqQ0k9seCuQWtcd9T9sOQQ.png"
+      },
+      "terms": "agree",
+      "eventEmail": "scarboroughfarmersmarket@gmail.com",
+      "eventName": "Scarborough Farmers' Market",
+      "theme": [{ "name": "" }],
+      "themeString": "",
+      "expectedAvg": 200,
+      "subsetCalendarString": "",
+      "image": {
+        "fileName": "8HzyAimbH7RFrBNNTAhVnA.png",
+        "altText": "three photos of a tent, fresh produce, and a woman holding a bouquet of flowers.",
+        "binId": "Lwsg9GdJZGL4qOF9J2f_tQ",
+        "fileSize": 1411363,
+        "credit": "J. Forde",
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/8HzyAimbH7RFrBNNTAhVnA_Lwsg9GdJZGL4qOF9J2f_tQ.png"
+      },
+      "orgName": "Red Onion Event Management",
+      "partnerName": "Red Onion Event Management",
+      "contactName": "J. Forde",
+      "weeklyDates": [
+        {
+          "weekDay": [{ "day": "Tuesday" }],
+          "description": "",
+          "startTime": "2025-05-17T19:30:00.000Z",
+          "endTime": "2025-05-17T23:30:00.000Z",
+          "$$hashKey": "object:12558"
+        }
+      ],
+      "dates": [
+        {
+          "startDateTime": "2025-06-10T19:30:00.000Z",
+          "endDateTime": "2025-06-10T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-17T19:30:00.000Z",
+          "endDateTime": "2025-06-17T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-24T19:30:00.000Z",
+          "endDateTime": "2025-06-24T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-01T19:30:00.000Z",
+          "endDateTime": "2025-07-01T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-08T19:30:00.000Z",
+          "endDateTime": "2025-07-08T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-15T19:30:00.000Z",
+          "endDateTime": "2025-07-15T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-22T19:30:00.000Z",
+          "endDateTime": "2025-07-22T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-29T19:30:00.000Z",
+          "endDateTime": "2025-07-29T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-08-05T19:30:00.000Z",
+          "endDateTime": "2025-08-05T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-08-12T19:30:00.000Z",
+          "endDateTime": "2025-08-12T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-08-19T19:30:00.000Z",
+          "endDateTime": "2025-08-19T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-08-26T19:30:00.000Z",
+          "endDateTime": "2025-08-26T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-09-02T19:30:00.000Z",
+          "endDateTime": "2025-09-02T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-09-09T19:30:00.000Z",
+          "endDateTime": "2025-09-09T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-09-16T19:30:00.000Z",
+          "endDateTime": "2025-09-16T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-09-23T19:30:00.000Z",
+          "endDateTime": "2025-09-23T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-09-30T19:30:00.000Z",
+          "endDateTime": "2025-09-30T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-07T19:30:00.000Z",
+          "endDateTime": "2025-10-07T23:30:00.000Z"
+        }
+      ],
+      "isWidgetEvent": false,
+      "orgPhone": "6478354064",
+      "freeEvent": "Yes",
+      "timeInfo": "",
+      "reservationsRequired": "No",
+      "orgEmail": "redonionevents1@gmail.com",
+      "locations": [
+        {
+          "locationName": "Rosebank Park nearby Sheppard Ave E",
+          "address": "Rosebank Park, 1051 Progress Ave, Scarborough, ON M1B 5M2, Canada",
+          "displayAddress": "",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "42cbe9ec-c021-cb4c-a55b-8783374f2eac",
+          "type": "marker",
+          "$$hashKey": "object:12556",
+          "coords": { "lng": -79.23355076375428, "lat": 43.791977144134954 }
+        }
+      ],
+      "partnerType": "producedby",
+      "category": [{ "name": "Farmers Market" }],
+      "eventWebsite": "https://www.scarboroughfarmersmarket.ca/",
+      "recId": "HESzCb1VsbeZBWR7jrCn8A",
+      "startDate": "2025-06-10T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Farmers Market,Public Square",
+      "accessibility": "full",
+      "endDate": "2025-10-09T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Edited and approved by Yiheng Li 05/20/2025. Edited description, time details and location details.",
+        "newsletterCategory": [],
+        "updatedBy": "ylie",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-05-20T20:06:26.468Z",
+        "includeInNewsletter": false,
+        "featuredEvent": false,
+        "approvedBy": "ylie",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-05-20T20:06:26.468Z"
+      },
+      "description": "Celebrating 31 years at Mel Lastman Square this season! We welcome your tried and true Farm and Artisanal Vendor favourites, sprinkled with a few new, excitingly delicious, grab and go options for lunch or dinner. Let's eat, drink, and make merry while celebrating the diversity and richness of our local and regional blessings. We look forward to meeting, and thank you for your support!",
+      "orgAddress": "975 Regional Rd. 21 Port Perry Ont. L9L 1B5",
+      "frequency": "weekly",
+      "features": {
+        "Paid Parking": true,
+        "Onsite Food and Beverages": true,
+        "Public Washrooms": true,
+        "Bike Racks": true
+      },
+      "orgType": "Non-Profit",
+      "thumbImage": {
+        "fileName": "1FQnIRk3nNIlzYisBHz99g_th.png",
+        "binId": "l2huxoeLjsbCmfeSMQ8_-w",
+        "fileSize": 36218,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/1FQnIRk3nNIlzYisBHz99g_th_l2huxoeLjsbCmfeSMQ8_-w.png"
+      },
+      "terms": "agree",
+      "eventEmail": "info@northyorkfarmersmarket.ca",
+      "eventName": "North York Farmers' Market",
+      "theme": [],
+      "themeString": "",
+      "expectedAvg": 275,
+      "subsetCalendarString": "",
+      "image": {
+        "fileName": "1FQnIRk3nNIlzYisBHz99g.jpg",
+        "altText": "colourful farmer's market with different produce on sale in stalls.",
+        "binId": "vRfIlQXzmjPbthrKYEjtJA",
+        "fileSize": 177041,
+        "fileType": "image/jpeg",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/1FQnIRk3nNIlzYisBHz99g_vRfIlQXzmjPbthrKYEjtJA.jpg"
+      },
+      "orgName": "North York Farmers' Market Association",
+      "partnerName": "North York Farmers' Market Association",
+      "contactName": "Jordan McKay",
+      "eventPhone": "9052601856",
+      "weeklyDates": [
+        {
+          "weekDay": [{ "day": "Thursday" }],
+          "description": "",
+          "startTime": "2025-05-17T12:00:00.000Z",
+          "endTime": "2025-05-17T18:00:00.000Z",
+          "$$hashKey": "object:14266"
+        }
+      ],
+      "dates": [
+        {
+          "startDateTime": "2025-05-22T12:00:00.000Z",
+          "endDateTime": "2025-05-22T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-29T12:00:00.000Z",
+          "endDateTime": "2025-05-29T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-05T12:00:00.000Z",
+          "endDateTime": "2025-06-05T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-12T12:00:00.000Z",
+          "endDateTime": "2025-06-12T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-19T12:00:00.000Z",
+          "endDateTime": "2025-06-19T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-26T12:00:00.000Z",
+          "endDateTime": "2025-06-26T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-03T12:00:00.000Z",
+          "endDateTime": "2025-07-03T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-10T12:00:00.000Z",
+          "endDateTime": "2025-07-10T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-17T12:00:00.000Z",
+          "endDateTime": "2025-07-17T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-24T12:00:00.000Z",
+          "endDateTime": "2025-07-24T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-31T12:00:00.000Z",
+          "endDateTime": "2025-07-31T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-08-07T12:00:00.000Z",
+          "endDateTime": "2025-08-07T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-08-14T12:00:00.000Z",
+          "endDateTime": "2025-08-14T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-08-21T12:00:00.000Z",
+          "endDateTime": "2025-08-21T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-08-28T12:00:00.000Z",
+          "endDateTime": "2025-08-28T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-09-04T12:00:00.000Z",
+          "endDateTime": "2025-09-04T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-09-11T12:00:00.000Z",
+          "endDateTime": "2025-09-11T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-09-18T12:00:00.000Z",
+          "endDateTime": "2025-09-18T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-09-25T12:00:00.000Z",
+          "endDateTime": "2025-09-25T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-02T12:00:00.000Z",
+          "endDateTime": "2025-10-02T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-09T12:00:00.000Z",
+          "endDateTime": "2025-10-09T18:00:00.000Z"
+        }
+      ],
+      "isWidgetEvent": false,
+      "orgPhone": "9052601856",
+      "freeEvent": "Yes",
+      "timeInfo": "",
+      "reservationsRequired": "No",
+      "orgEmail": "info@northyorkfarmersmarket.ca",
+      "locations": [
+        {
+          "locationName": "Mel Lastman Square",
+          "address": "5100 Yonge St, North York, ON M2N 5V7, Canada",
+          "displayAddress": "",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "d0bb5890-f286-e37c-2f16-93b007fc9451",
+          "type": "marker",
+          "$$hashKey": "object:14264",
+          "coords": { "lng": -79.41407307936095, "lat": 43.76736983488434 }
+        }
+      ],
+      "partnerType": "producedby",
+      "category": [{ "name": "Farmers Market" }, { "name": "Public Square" }],
+      "eventWebsite": "https://northyorkfarmersmarket.ca",
+      "recId": "jzDIJmL3yQAV3SHuKrekpA",
+      "startDate": "2025-05-22T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Farmers Market,Public Square",
+      "accessibility": "full",
+      "endDate": "2025-10-08T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Edited and approved by Yiheng Li 05/20/2025. Edited description, time and location details. Image was removed due to heavy use of text.",
+        "newsletterCategory": [],
+        "updatedBy": "ylie",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-05-20T20:08:39.601Z",
+        "includeInNewsletter": false,
+        "featuredEvent": false,
+        "approvedBy": "ylie",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-05-20T20:08:39.601Z"
+      },
+      "description": "Celebrating 35 amazing years, proudly bringing, Ontario farm-fresh produce, pastries, preserves and artisanal products to our beloved city of Toronto!  Your local Ontario, family farms, area artisans and entrepreneurs thank you for this opportunity!",
+      "orgAddress": "12-1991 Victoria Park Avenue, Scarborough, ON, M1R 0C9",
+      "frequency": "weekly",
+      "features": {
+        "Paid Parking": true,
+        "Onsite Food and Beverages": true,
+        "Public Washrooms": true,
+        "Bike Racks": true
+      },
+      "orgType": "Non-Profit",
+      "thumbImage": {},
+      "terms": "agree",
+      "eventEmail": "npsfarmersmarket@gmail.com",
+      "eventName": "Nathan Phillips Square Farmers' Market",
+      "theme": [],
+      "themeString": "",
+      "expectedAvg": 250,
+      "subsetCalendarString": "",
+      "orgName": "Red Onion Event Management",
+      "partnerName": "Red Onion Event Management",
+      "contactName": "J. Forde",
+      "eventPhone": "6478354064",
+      "weeklyDates": [
+        {
+          "weekDay": [{ "day": "Wednesday" }],
+          "description": "",
+          "startTime": "2025-05-17T12:00:00.000Z",
+          "endTime": "2025-05-17T18:00:00.000Z",
+          "$$hashKey": "object:15107"
+        }
+      ],
+      "dates": [
+        {
+          "startDateTime": "2025-06-18T12:00:00.000Z",
+          "endDateTime": "2025-06-18T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-25T12:00:00.000Z",
+          "endDateTime": "2025-06-25T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-02T12:00:00.000Z",
+          "endDateTime": "2025-07-02T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-09T12:00:00.000Z",
+          "endDateTime": "2025-07-09T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-16T12:00:00.000Z",
+          "endDateTime": "2025-07-16T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-23T12:00:00.000Z",
+          "endDateTime": "2025-07-23T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-30T12:00:00.000Z",
+          "endDateTime": "2025-07-30T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-08-06T12:00:00.000Z",
+          "endDateTime": "2025-08-06T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-08-13T12:00:00.000Z",
+          "endDateTime": "2025-08-13T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-08-20T12:00:00.000Z",
+          "endDateTime": "2025-08-20T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-08-27T12:00:00.000Z",
+          "endDateTime": "2025-08-27T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-09-03T12:00:00.000Z",
+          "endDateTime": "2025-09-03T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-09-10T12:00:00.000Z",
+          "endDateTime": "2025-09-10T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-09-17T12:00:00.000Z",
+          "endDateTime": "2025-09-17T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-09-24T12:00:00.000Z",
+          "endDateTime": "2025-09-24T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-01T12:00:00.000Z",
+          "endDateTime": "2025-10-01T18:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-08T12:00:00.000Z",
+          "endDateTime": "2025-10-08T18:00:00.000Z"
+        }
+      ],
+      "isWidgetEvent": false,
+      "orgPhone": "6478354064",
+      "freeEvent": "Yes",
+      "timeInfo": "",
+      "reservationsRequired": "No",
+      "orgEmail": "redonionevents1@gmail.com",
+      "locations": [
+        {
+          "locationName": "Nathan Phillips Square",
+          "address": "100 Queen St W, Toronto, ON M5H 2N3, Canada",
+          "displayAddress": "",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "620449d0-ac01-5b11-9412-524add4c8ad6",
+          "type": "marker",
+          "$$hashKey": "object:15105",
+          "coords": { "lng": -79.3833631888855, "lat": 43.65285720840695 }
+        }
+      ],
+      "partnerType": "producedby",
+      "category": [{ "name": "Farmers Market" }, { "name": "Public Square" }],
+      "eventWebsite": "https://nathanphillipssquarefarmersmarket.ca/",
+      "recId": "dL$lc$QqK1k0bmFmtmUdQg",
+      "startDate": "2025-06-18T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Farmers Market",
+      "accessibility": "full",
+      "endDate": "2025-10-01T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Edited and approved by Yiheng Li 05/20/2025. Edited description, time and location details. Image was cropped to remove use of text.",
+        "newsletterCategory": [],
+        "updatedBy": "ylie",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-05-20T20:19:33.832Z",
+        "includeInNewsletter": false,
+        "featuredEvent": false,
+        "approvedBy": "ylie",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-05-20T20:19:33.832Z"
+      },
+      "description": "A quaint neighbourhood market celebrating our second season! Aiming to promote Ontario Farmers, eclectic entrepreneurs and local businesses in a spirit of community, fun and wellness.&#10;&#10;Enjoy farm-fresh produce and a range of artisanal products that reflect Toronto&#8217;s diversity!",
+      "orgAddress": "12-1991 Victoria Park Avenue, Scarborough, ON, M1R 0C9",
+      "frequency": "weekly",
+      "features": {
+        "Paid Parking": true,
+        "Onsite Food and Beverages": true,
+        "Public Washrooms": true
+      },
+      "orgType": "Non-Profit",
+      "thumbImage": {
+        "fileName": "qbI2Vht-5srNP_MUDfx_GA_th.png",
+        "binId": "Dd2hOGlvkMCFNZ6klwbGew",
+        "fileSize": 25143,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/qbI2Vht-5srNP_MUDfx_GA_th_Dd2hOGlvkMCFNZ6klwbGew.png"
+      },
+      "terms": "agree",
+      "eventEmail": "courtyardfarmersmkt@gmail.com",
+      "eventName": "Courtyard Farmers' Market",
+      "theme": [],
+      "themeString": "",
+      "expectedAvg": 150,
+      "subsetCalendarString": "",
+      "image": {
+        "fileName": "qbI2Vht-5srNP_MUDfx_GA.jpg",
+        "altText": "People selling produce like tomatoes, zucchinis, onions, and art vendors.",
+        "binId": "xkbH4Vl1K36Stgbw2rYoPw",
+        "fileSize": 283684,
+        "credit": "J. Forde",
+        "fileType": "image/jpeg",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/qbI2Vht-5srNP_MUDfx_GA_xkbH4Vl1K36Stgbw2rYoPw.jpg"
+      },
+      "orgName": "Red Onion Event Management",
+      "partnerName": "Red Onion Event Management",
+      "contactName": "J. Forde",
+      "eventPhone": "6478354064",
+      "weeklyDates": [
+        {
+          "weekDay": [{ "day": "Wednesday" }],
+          "description": "",
+          "startTime": "2025-05-17T19:30:00.000Z",
+          "endTime": "2025-05-17T23:30:00.000Z",
+          "$$hashKey": "object:16435"
+        }
+      ],
+      "dates": [
+        {
+          "startDateTime": "2025-06-18T19:30:00.000Z",
+          "endDateTime": "2025-06-18T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-25T19:30:00.000Z",
+          "endDateTime": "2025-06-25T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-02T19:30:00.000Z",
+          "endDateTime": "2025-07-02T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-09T19:30:00.000Z",
+          "endDateTime": "2025-07-09T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-16T19:30:00.000Z",
+          "endDateTime": "2025-07-16T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-23T19:30:00.000Z",
+          "endDateTime": "2025-07-23T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-30T19:30:00.000Z",
+          "endDateTime": "2025-07-30T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-08-06T19:30:00.000Z",
+          "endDateTime": "2025-08-06T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-08-13T19:30:00.000Z",
+          "endDateTime": "2025-08-13T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-08-20T19:30:00.000Z",
+          "endDateTime": "2025-08-20T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-08-27T19:30:00.000Z",
+          "endDateTime": "2025-08-27T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-09-03T19:30:00.000Z",
+          "endDateTime": "2025-09-03T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-09-10T19:30:00.000Z",
+          "endDateTime": "2025-09-10T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-09-17T19:30:00.000Z",
+          "endDateTime": "2025-09-17T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-09-24T19:30:00.000Z",
+          "endDateTime": "2025-09-24T23:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-10-01T19:30:00.000Z",
+          "endDateTime": "2025-10-01T23:30:00.000Z"
+        }
+      ],
+      "isWidgetEvent": false,
+      "orgPhone": "6478354064",
+      "freeEvent": "Yes",
+      "timeInfo": "",
+      "reservationsRequired": "No",
+      "orgEmail": "redonionevents1@gmail.com",
+      "locations": [
+        {
+          "locationName": "Robertson Parkette",
+          "address": "Robertson Parkette, 1549 Danforth Ave, Toronto, ON M4J 1N8, Canada",
+          "displayAddress": "",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "15217b43-790f-f773-eac9-b4123f33571f",
+          "type": "marker",
+          "$$hashKey": "object:16433",
+          "coords": { "lng": -79.32412335608215, "lat": 43.68289402942806 }
+        }
+      ],
+      "partnerType": "producedby",
+      "category": [{ "name": "Farmers Market" }],
+      "eventWebsite": "https://www.courtyardfarmersmkt.ca/",
+      "recId": "$bSiRRYcR3PbmiQsPHUvtg",
+      "startDate": "2025-06-18T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Arts/Exhibits,Music,Street Festival",
+      "accessibility": "full",
+      "endDate": "2025-07-20T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Approved DP 03/31/25 (edited date/time to multiple dates)",
+        "newsletterCategory": [{ "value": "Festivals and Events" }],
+        "updatedBy": "dperry",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-03-31T20:46:41.304Z",
+        "includeInNewsletter": true,
+        "featuredEvent": "pending",
+        "approvedBy": "dperry",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-03-31T20:46:41.304Z"
+      },
+      "description": "The 19th year of the BIG on Bloor Festival returns with in-person pedestrian takeover of car-free Bloordale!&#10;&#10;Celebrating community magic, creativity and diversity through arts and culture, providing opportunities to local disenfranchised artists and showcasing the small businesses that make Bloordale so amazing.&#10;&#10;This year, we will explore the theme of bizarre; a celebration of the delightfully peculiar aspects of local culture, artistry, and community life, through workshops and installations led by local BIPOC artists, presenting conversations with their relationship to the individual, cultural oddities and how both are necessary for a healthy creative community.",
+      "orgAddress": "62 Geary Avenue",
+      "frequency": "dates",
+      "features": {
+        "Onsite Food and Beverages": true,
+        "Public Washrooms": true,
+        "Bike Racks": true,
+        "Free Parking": true
+      },
+      "allDay": false,
+      "orgType": "Non-Profit",
+      "thumbImage": {
+        "fileName": "Screen Shot 2025-03-29 at 5.40.43 PM_th.png",
+        "binId": "lK19CfHsqebJI8HMLZxIUg",
+        "fileSize": 50283,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Screen Shot 2025-03-29 at 5_lK19CfHsqebJI8HMLZxIUg.40.43 PM_th.png"
+      },
+      "contactTitle": "Director",
+      "terms": "agree",
+      "eventEmail": "bigonbloor@gmail.com",
+      "eventName": "BIG on Bloor",
+      "theme": [],
+      "themeString": "",
+      "expectedAvg": 80000,
+      "subsetCalendarString": "",
+      "image": {
+        "fileName": "Screen Shot 2025-03-29 at 5.40.43 PM.png",
+        "binId": "L77bdJIfW-zumWq0LeI79A",
+        "altText": "large crowd of people surround a percussion marching band",
+        "fileSize": 1487526,
+        "credit": "DCP",
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Screen Shot 2025-03-29 at 5_L77bdJIfW-zumWq0LeI79A.40.43 PM.png"
+      },
+      "orgName": "Bloor Improvement Group",
+      "partnerName": "Bloordale Village BIA",
+      "contactName": "Darren Leu",
+      "dates": [
+        {
+          "startDateTime": "2025-07-19T16:00:00.000Z",
+          "endDateTime": "2025-07-20T04:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-20T16:00:00.000Z",
+          "endDateTime": "2025-07-21T01:00:00.000Z"
+        }
+      ],
+      "shortDescription": "The 19th year of the BIG on Bloor Festival returns with in-person pedestrian takeover of car-free Bloordale!",
+      "isWidgetEvent": false,
+      "orgPhone": "6477098337",
+      "freeEvent": "Yes",
+      "timeInfo": "",
+      "reservationsRequired": "No",
+      "orgEmail": "bigonbloor@gmail.com",
+      "locations": [
+        {
+          "locationName": "Bloordale Village",
+          "locationType": [{ "type": "polygon" }],
+          "id": "72667f86-9c02-df20-5fbe-1aac10ba631b",
+          "type": "polygon",
+          "$$hashKey": "object:53952",
+          "coords": [
+            { "lng": -79.43558366628527, "lat": 43.660305611391195 },
+            { "lng": -79.44287927480578, "lat": 43.658799817006965 },
+            { "lng": -79.44285781713366, "lat": 43.6578528548051 },
+            { "lng": -79.43878085943102, "lat": 43.65862905443495 },
+            { "lng": -79.43833024831652, "lat": 43.659125816932196 },
+            { "lng": -79.43534763189196, "lat": 43.659746764274104 }
+          ]
+        }
+      ],
+      "partnerType": "presentedby",
+      "category": [
+        { "name": "Arts/Exhibits" },
+        { "name": "Music" },
+        { "name": "Street Festival" }
+      ],
+      "eventWebsite": "https://bigonbloorfestival.com",
+      "recId": "raHI9yu$67n1XYHNLeKXpg",
+      "startDate": "2025-07-19T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Artisan,LGBTQ2S+,Live Performances",
+      "accessibility": "full",
+      "endDate": "2025-06-30T04:00:00.000Z",
+      "admin": {
+        "newsletterCategory": [{ "value": "Festivals and Events" }],
+        "updatedBy": "ylie",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-05-23T20:24:43.279Z",
+        "includeInNewsletter": true,
+        "featuredEvent": "true",
+        "approvedBy": "ylie",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-05-23T20:24:43.279Z",
+        "postedTimestamp": "2025-05-23T20:24:43.279Z"
+      },
+      "description": "We're transforming into a vibrant hub for Pride Month celebrations.&#10;&#10;From a stunning 40-foot Pride flag and rainbow centre court staircase to community-driven events, we will be adorned in the spirit of 2SLGBTQ+ pride through art, entertainment, and wonderful experiences.&#10;&#10;Highlights include - Test Your Knowledge with Pride Trivia at Queen's Cross, CF Drag Brunch presented by OEB Breakfast Co. - A Feast for the Senses, celebration of Indigenous and Queer identity through art, promoting unity with Pride love messages, and CF Pride Shop - A Showcase of Queer Creativity.",
+      "orgAddress": "111 Queens St E",
+      "frequency": "weekly",
+      "orgType": "Public Agency",
+      "terms": "agree",
+      "eventEmail": "",
+      "eventName": "Pride at CF Toronto Eaton Centre",
+      "reservation": {
+        "website": "https://www.eventbrite.ca/e/pride-trivia-cf-toronto-eaton-centre-tickets-1355481945989"
+      },
+      "theme": [],
+      "themeString": "",
+      "subsetCalendarString": "",
+      "orgName": "North Strategic",
+      "otherCostInfo": "Except for Pride Trivia at Queen's Cross and CF Drag Brunch. Please see website for more details.",
+      "partnerName": "CF Toronto Eaton Centre",
+      "contactName": "Devin Pinfold",
+      "weeklyDates": [
+        {
+          "weekDay": [{ "day": "Monday" }],
+          "description": "",
+          "startTime": "2025-05-22T14:00:00.000Z",
+          "endTime": "2025-05-23T01:00:00.000Z",
+          "$$hashKey": "object:6808"
+        },
+        {
+          "weekDay": [{ "day": "Tuesday" }],
+          "startTime": "2025-05-22T14:00:00.000Z",
+          "endTime": "2025-05-23T01:00:00.000Z",
+          "$$hashKey": "object:6809"
+        },
+        {
+          "weekDay": [{ "day": "Wednesday" }],
+          "startTime": "2025-05-22T14:00:00.000Z",
+          "endTime": "2025-05-23T01:00:00.000Z",
+          "$$hashKey": "object:6810"
+        },
+        {
+          "weekDay": [{ "day": "Thursday" }],
+          "startTime": "2025-05-22T14:00:00.000Z",
+          "endTime": "2025-05-23T01:00:00.000Z",
+          "$$hashKey": "object:6811"
+        },
+        {
+          "weekDay": [{ "day": "Friday" }],
+          "startTime": "2025-05-22T14:00:00.000Z",
+          "endTime": "2025-05-23T01:00:00.000Z",
+          "$$hashKey": "object:6812"
+        },
+        {
+          "weekDay": [{ "day": "Saturday" }],
+          "startTime": "2025-05-22T14:00:00.000Z",
+          "endTime": "2025-05-23T01:00:00.000Z",
+          "$$hashKey": "object:6813"
+        },
+        {
+          "weekDay": [{ "day": "Sunday" }],
+          "startTime": "2025-05-22T14:00:00.000Z",
+          "endTime": "2025-05-23T01:00:00.000Z",
+          "$$hashKey": "object:6814"
+        }
+      ],
+      "dates": [
+        {
+          "startDateTime": "2025-06-02T14:00:00.000Z",
+          "endDateTime": "2025-06-03T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-09T14:00:00.000Z",
+          "endDateTime": "2025-06-10T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-16T14:00:00.000Z",
+          "endDateTime": "2025-06-17T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-23T14:00:00.000Z",
+          "endDateTime": "2025-06-24T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-30T14:00:00.000Z",
+          "endDateTime": "2025-07-01T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-03T14:00:00.000Z",
+          "endDateTime": "2025-06-04T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-10T14:00:00.000Z",
+          "endDateTime": "2025-06-11T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-17T14:00:00.000Z",
+          "endDateTime": "2025-06-18T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-24T14:00:00.000Z",
+          "endDateTime": "2025-06-25T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-04T14:00:00.000Z",
+          "endDateTime": "2025-06-05T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-11T14:00:00.000Z",
+          "endDateTime": "2025-06-12T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-18T14:00:00.000Z",
+          "endDateTime": "2025-06-19T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-25T14:00:00.000Z",
+          "endDateTime": "2025-06-26T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-05T14:00:00.000Z",
+          "endDateTime": "2025-06-06T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-12T14:00:00.000Z",
+          "endDateTime": "2025-06-13T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-19T14:00:00.000Z",
+          "endDateTime": "2025-06-20T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-26T14:00:00.000Z",
+          "endDateTime": "2025-06-27T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-06T14:00:00.000Z",
+          "endDateTime": "2025-06-07T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-13T14:00:00.000Z",
+          "endDateTime": "2025-06-14T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-20T14:00:00.000Z",
+          "endDateTime": "2025-06-21T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-27T14:00:00.000Z",
+          "endDateTime": "2025-06-28T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-07T14:00:00.000Z",
+          "endDateTime": "2025-06-08T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-14T14:00:00.000Z",
+          "endDateTime": "2025-06-15T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-21T14:00:00.000Z",
+          "endDateTime": "2025-06-22T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-28T14:00:00.000Z",
+          "endDateTime": "2025-06-29T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-01T14:00:00.000Z",
+          "endDateTime": "2025-06-02T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-08T14:00:00.000Z",
+          "endDateTime": "2025-06-09T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-15T14:00:00.000Z",
+          "endDateTime": "2025-06-16T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-22T14:00:00.000Z",
+          "endDateTime": "2025-06-23T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-06-29T14:00:00.000Z",
+          "endDateTime": "2025-06-30T01:00:00.000Z"
+        }
+      ],
+      "shortDescription": "From a stunning 40-foot Pride flag and rainbow centre court staircase to community-driven events, celebrate Pride at CF Toronto Eaton Centre.",
+      "isWidgetEvent": false,
+      "orgPhone": "6472833057",
+      "freeEvent": "Yes",
+      "reservationsRequired": "No",
+      "orgEmail": "devin.pinfold@northstrategic.com",
+      "timeInfo": "Activities occurring daily",
+      "locations": [
+        {
+          "locationName": "CF Toronto Eaton Centre",
+          "address": "220 Yonge St, Toronto, ON M5B 2H1, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "21dceea5-1ea9-a982-33cd-7314750c9ae4",
+          "type": "marker",
+          "$$hashKey": "object:6806",
+          "coords": { "lng": -79.3807186, "lat": 43.6544186 }
+        }
+      ],
+      "partnerType": "presentedby",
+      "category": [
+        { "name": "Artisan" },
+        { "name": "LGBTQ2S+" },
+        { "name": "Live Performances" }
+      ],
+      "eventWebsite": "https://shops.cadillacfairview.com/property/cf-toronto-eaton-centre/news-events",
+      "recId": "tfd5tYaI1dVmRaBRA$yAhA",
+      "startDate": "2025-06-01T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Arts/Exhibits",
+      "accessibility": "none",
+      "endDate": "2025-05-17T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Approved DP 05/12/25",
+        "newsletterCategory": [],
+        "updatedBy": "dperry",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-05-12T20:18:59.993Z",
+        "includeInNewsletter": false,
+        "featuredEvent": "false",
+        "approvedBy": "dperry",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-05-12T20:18:59.992Z"
+      },
+      "description": "Welcome to Date Night Paint Night at Artbox Studio Gallery &#8211; a candle-lit, romantic and artistic evening like no other! Bring your partner out for a unique experience where you'll collaborate to create a set of two paintings that will make one connected masterpiece together! &#10;&#10;Please see more Date Night Workshops here: https://www.artboxstudiogallery.com/date-night",
+      "orgAddress": "1226 Kingston Road",
+      "frequency": "once",
+      "features": { "Paid Parking": true, "Public Washrooms": true },
+      "orgType": "Private/Business",
+      "thumbImage": {
+        "fileName": "connectionca_th.png",
+        "binId": "IB3UsvnDl0CvUQ9k5AFM5w",
+        "fileSize": 9102,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/connectionca_th_IB3UsvnDl0CvUQ9k5AFM5w.png"
+      },
+      "terms": "agree",
+      "eventEmail": "events@artboxtoronto.com",
+      "eventName": "A Canvas Connection: Date Night Paint Night Workshop",
+      "reservation": {
+        "website": "https://www.artboxstudiogallery.com/event-details-registration/canvas-connection-a-date-night-paint-night-2025-05-17-20-00",
+        "phone": "4166909550",
+        "email": "events@artboxtoronto.com"
+      },
+      "theme": [],
+      "themeString": "",
+      "subsetCalendarString": "",
+      "admissionType": "GA",
+      "image": {
+        "fileName": "connectionca.jpg",
+        "binId": "Kr0vzay7_1w2Pwak41NeVg",
+        "altText": "Canvas Connection: Date Night Paint Night",
+        "fileSize": 265076,
+        "fileType": "image/jpeg",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/connectionca_Kr0vzay7_1w2Pwak41NeVg.jpg"
+      },
+      "cost": { "ga": 115.76 },
+      "orgName": "Artbox Studio &amp; Gallery",
+      "contactName": "Natasha. A",
+      "eventPhone": "4166909550",
+      "dates": [
+        {
+          "startDateTime": "2025-05-18T00:00:00.000Z",
+          "endDateTime": "2025-05-18T02:00:00.000Z"
+        }
+      ],
+      "endDateTime": "2025-05-18T02:00:00.000Z",
+      "isWidgetEvent": false,
+      "orgPhone": "4166909550",
+      "freeEvent": "No",
+      "startDateTime": "2025-05-18T00:00:00.000Z",
+      "reservationsRequired": "Yes",
+      "orgEmail": "events@artboxtoronto.com",
+      "locations": [
+        {
+          "locationName": "Artbox Studio &amp; Gallery",
+          "address": "1226 Kingston Rd, Toronto, ON M1N 1P3, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "3a71d471-8f82-a5a6-00f1-a9bfeffcb1ce",
+          "type": "marker",
+          "$$hashKey": "object:4817",
+          "coords": { "lng": -79.2789054, "lat": 43.682599 }
+        }
+      ],
+      "partnerType": "none",
+      "category": [{ "name": "Arts/Exhibits" }],
+      "eventWebsite": "https://www.artboxstudiogallery.com",
+      "recId": "c6J9H2sEbhTQKBhMLJ84Lw",
+      "startDate": "2025-05-17T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Arts/Exhibits",
+      "accessibility": "none",
+      "endDate": "2025-05-17T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Approved DP 05/12/25",
+        "newsletterCategory": [],
+        "updatedBy": "dperry",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-05-12T20:21:07.524Z",
+        "includeInNewsletter": false,
+        "featuredEvent": "false",
+        "approvedBy": "dperry",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-05-12T20:21:07.524Z"
+      },
+      "description": "Learn a new skill with this fun and relaxing activity that allows you to create two beautiful, custom candles. Select personalized scents, and work with organic soy wax which burns cleaner, and lasts longer. Take your candles home with you that day and enjoy your new custom scented creations.&#10;&#10;Please see more Candle Making Workshops here: https://www.artboxstudiogallery.com/candle-making",
+      "orgAddress": "1226 Kingston Road",
+      "frequency": "once",
+      "features": { "Paid Parking": true, "Public Washrooms": true },
+      "orgType": "Private/Business",
+      "thumbImage": {
+        "fileName": "candleca_th.png",
+        "binId": "W50FPfKbi1sidQ3BYsgx7A",
+        "fileSize": 29840,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/candleca_th_W50FPfKbi1sidQ3BYsgx7A.png"
+      },
+      "terms": "agree",
+      "eventEmail": "events@artboxtoronto.com",
+      "eventName": "A Scented Candle Making Workshop",
+      "reservation": {
+        "website": "https://www.artboxstudiogallery.com/event-details-registration/scented-candle-making-workshop-2025-05-17-16-00",
+        "phone": "4166909550",
+        "email": "events@artboxtoronto.com"
+      },
+      "theme": [],
+      "themeString": "",
+      "subsetCalendarString": "",
+      "admissionType": "GA",
+      "image": {
+        "fileName": "candleca.jpg",
+        "binId": "G0bqmUJxMC9TcPAki3ionA",
+        "altText": "Scented Candle Making Workshop",
+        "fileSize": 1241938,
+        "fileType": "image/jpeg",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/candleca_G0bqmUJxMC9TcPAki3ionA.jpg"
+      },
+      "cost": { "ga": 69.43 },
+      "orgName": "Artbox Studio &amp; Gallery",
+      "contactName": "Natasha. A",
+      "eventPhone": "4166909550",
+      "dates": [
+        {
+          "startDateTime": "2025-05-17T20:00:00.000Z",
+          "endDateTime": "2025-05-17T22:00:00.000Z"
+        }
+      ],
+      "endDateTime": "2025-05-17T22:00:00.000Z",
+      "isWidgetEvent": false,
+      "orgPhone": "4166909550",
+      "freeEvent": "No",
+      "startDateTime": "2025-05-17T20:00:00.000Z",
+      "reservationsRequired": "Yes",
+      "orgEmail": "events@artboxtoronto.com",
+      "locations": [
+        {
+          "locationName": "Artbox Studio &amp; Gallery",
+          "address": "1226 Kingston Rd, Toronto, ON M1N 1P3, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "500c3ea9-3695-5dcd-50a1-5c2fe657a386",
+          "type": "marker",
+          "$$hashKey": "object:7186",
+          "coords": { "lng": -79.2789054, "lat": 43.682599 }
+        }
+      ],
+      "partnerType": "none",
+      "category": [{ "name": "Arts/Exhibits" }],
+      "eventWebsite": "https://www.artboxstudiogallery.com",
+      "recId": "u5a7mEG3e$$$YkcfSlYcuA",
+      "startDate": "2025-05-17T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Charity/Cause,Family/Children,Walking",
+      "accessibility": "none",
+      "endDate": "2025-05-05T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Sajeetha C. 04/16/2025 Approved. Edited description.",
+        "newsletterCategory": [],
+        "updatedBy": "schandr2",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-04-16T15:27:32.917Z",
+        "includeInNewsletter": false,
+        "featuredEvent": "false",
+        "approvedBy": "schandr2",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-04-16T15:27:32.917Z"
+      },
+      "description": "Join CYBEX and storyteller (and parent of two!) Sarain Fox for a community event to support maternal mental health and combat postpartum loneliness.&#10;&#10;Did you know that 82% of pregnant and postpartum individuals experience loneliness? This isolation can seriously affect their mental health - and in turn, their child&#8217;s well-being. So, for this Maternal Mental Health Month, let&#8217;s change that, one step at a time.&#10;&#10;Bring your little ones and come out for a leisurely walk, meet other parents, connect with host Sarain Fox, and build community together. CYBEX will donate $100 per registered walk (up to $10,000) to the charity Life With a Baby and all participants will be entered to win one of five prize packages.",
+      "orgAddress": "507 King St E, Toronto, ON M5A 1M3",
+      "frequency": "once",
+      "orgType": "Private/Business",
+      "thumbImage": {
+        "fileName": "Untitled design_th.png",
+        "binId": "F2mEjr3wITu09uIYHfd9YA",
+        "fileSize": 47833,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Untitled design_th_F2mEjr3wITu09uIYHfd9YA.png"
+      },
+      "terms": "agree",
+      "eventName": "CYBEX Stroll Together Walk - Yorkville",
+      "reservation": {
+        "website": "https://www.lifewithababy.com/event-6146065"
+      },
+      "theme": [],
+      "themeString": "",
+      "expectedAvg": 50,
+      "subsetCalendarString": "",
+      "image": {
+        "fileName": "Untitled design.png",
+        "binId": "ovPLSMoMYeOSx9MWMVKyWQ",
+        "altText": "A group of parents walking along a residential street, pushing strollers with infants in them.",
+        "fileSize": 1999126,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Untitled design_ovPLSMoMYeOSx9MWMVKyWQ.png"
+      },
+      "orgName": "Craft Public Relations on the behalf of CYBEZ",
+      "contactName": "Alexx Bryant",
+      "dates": [
+        {
+          "startDateTime": "2025-05-05T15:00:00.000Z",
+          "endDateTime": "2025-05-05T17:00:00.000Z"
+        }
+      ],
+      "endDateTime": "2025-05-05T17:00:00.000Z",
+      "isWidgetEvent": false,
+      "orgPhone": "6472312179",
+      "freeEvent": "Yes",
+      "startDateTime": "2025-05-05T15:00:00.000Z",
+      "reservationsRequired": "Yes",
+      "orgEmail": "alexx@craftpublicrelations.com",
+      "locations": [
+        {
+          "locationName": "The Hazelton Hotel",
+          "address": "118 Yorkville Ave, Toronto, ON M5R 1C2, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "8aa3e55b-e27a-3854-321d-8edd06e672dd",
+          "type": "marker",
+          "$$hashKey": "object:1508",
+          "coords": { "lng": -79.3936282, "lat": 43.67091620000001 }
+        }
+      ],
+      "partnerType": "none",
+      "category": [
+        { "name": "Charity/Cause" },
+        { "name": "Family/Children" },
+        { "name": "Walking" }
+      ],
+      "eventWebsite": "https://www.lifewithababy.com/strolltogether",
+      "recId": "CTPr3PIToLXA3jOw5W$5vw",
+      "startDate": "2025-05-05T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Family/Children,Indigenous,Live Performances",
+      "accessibility": "full",
+      "endDate": "2025-06-07T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Edited and approved by Yiheng Li 05/30/2025. Edited description.&#10;&#10;More details included, from an additional listing submitted.",
+        "newsletterCategory": [],
+        "updatedBy": "ylie",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-05-30T20:02:16.653Z",
+        "includeInNewsletter": false,
+        "featuredEvent": false,
+        "approvedBy": "ylie",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-05-31T19:24:05.938Z"
+      },
+      "description": "Celebrate National Indigenous History Month! Engage in interactive workshops, performances,  book signing with North of North TV star, Maika Harper, and hands-on activities that engage in Indigenous ways of knowing. Family-friendly, all are welcome.",
+      "orgAddress": "235 Queens Quay West",
+      "frequency": "once",
+      "features": { "Paid Parking": true },
+      "orgType": "Non-Profit",
+      "thumbImage": {
+        "fileName": "Indigenous Celebration_th.png",
+        "binId": "U-Hif0f2lYN8H6K7oPXstQ",
+        "fileSize": 46174,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Indigenous Celebration_th_U-Hif0f2lYN8H6K7oPXstQ.png"
+      },
+      "contactTitle": "Senior Editor",
+      "terms": "agree",
+      "eventEmail": "media@harbourfrontcentre.com",
+      "eventName": "Ontario Science Centre - Indigenous Celebration at Harbourfront Centre",
+      "reservation": { "website": "https://bit.ly/4hYxxpb" },
+      "theme": [],
+      "themeString": "",
+      "expectedAvg": 50,
+      "subsetCalendarString": "",
+      "image": {
+        "fileName": "Indigenous Celebration.jpg",
+        "binId": "7Olco22tYyWEv6dxEhnt1A",
+        "altText": "Indigenous dancer wears traditional powwow regalia",
+        "fileSize": 895556,
+        "fileType": "image/jpeg",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Indigenous Celebration_7Olco22tYyWEv6dxEhnt1A.jpg"
+      },
+      "orgName": "Ontario Science Centre",
+      "otherCostInfo": "Drop-in attendance welcome, pre-registration encouraged.",
+      "partnerName": "Ontario Science Centre",
+      "contactName": "Lara Ceroni",
+      "eventPhone": "4169734000",
+      "dates": [
+        {
+          "startDateTime": "2025-06-07T15:00:00.000Z",
+          "endDateTime": "2025-06-07T20:00:00.000Z"
+        }
+      ],
+      "endDateTime": "2025-06-07T20:00:00.000Z",
+      "isWidgetEvent": false,
+      "orgPhone": "4169734000",
+      "freeEvent": "Yes",
+      "startDateTime": "2025-06-07T15:00:00.000Z",
+      "reservationsRequired": "Yes",
+      "orgEmail": "media@harbourfrontcentre.com",
+      "locations": [
+        {
+          "locationName": "Harbourfront Centre",
+          "address": "235 Queens Quay W, Toronto, ON M5J 2G8, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "37bbaf60-b5f0-5c64-3830-0cfd5218baa5",
+          "type": "marker",
+          "coords": { "lng": -79.3820602, "lat": 43.6391759 }
+        }
+      ],
+      "partnerType": "presentedby",
+      "category": [
+        { "name": "Family/Children" },
+        { "name": "Indigenous" },
+        { "name": "Live Performances" }
+      ],
+      "eventWebsite": "https://harbourfrontcentre.com/event/osc-indigenous-celebration/",
+      "recId": "XbgntjMOiRoLkDhhEywOKw",
+      "startDate": "2025-06-07T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Arts/Exhibits",
+      "accessibility": "none",
+      "endDate": "2025-05-16T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Approved DP 04/07/25",
+        "newsletterCategory": [],
+        "updatedBy": "dperry",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-04-07T19:29:31.983Z",
+        "includeInNewsletter": false,
+        "featuredEvent": "false",
+        "approvedBy": "dperry",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-04-07T19:29:31.983Z"
+      },
+      "description": "This unique event combines art and tech for a night to remember. Come experience art created by both humans and artificial intelligence, and interact with it through your mobile device. Socialize over drinks and learn more about art, technology, and AI.&#10;&#10;- 19+ event&#10;- For the best AR experience, your mobile device should have Chrome or Safari browsers",
+      "orgAddress": "228-43 Hanna ave",
+      "frequency": "once",
+      "features": { "Paid Parking": false },
+      "orgType": "Private/Business",
+      "thumbImage": {},
+      "contactTitle": "Director",
+      "terms": "agree",
+      "eventEmail": "shah@bloomimmersive.com",
+      "eventName": "After Dark Art Gallery + Drinks: An Augmented Reality Experience",
+      "reservation": {
+        "website": "https://www.eventbrite.ca/e/after-dark-art-gallery-drinks-an-augmented-reality-experience-tickets-1310576442419"
+      },
+      "theme": [],
+      "themeString": "",
+      "expectedAvg": 120,
+      "subsetCalendarString": "",
+      "admissionType": "Rng",
+      "cost": { "from": 25, "to": 40 },
+      "orgName": "Bloom Immersive Inc.",
+      "otherCostInfo": "$25 Pre-Sale (until 7 days before the event - limited quantities)&#10;$35 General Admission (Limited quantities)&#10;$40 General Admission (Day of show @ door)&#10;Each ticket comes with one free drink voucher.",
+      "contactName": "Shah Shakibai",
+      "eventPhone": "6479078580",
+      "dates": [
+        {
+          "startDateTime": "2025-05-17T00:00:00.000Z",
+          "endDateTime": "2025-05-17T03:59:00.000Z"
+        }
+      ],
+      "endDateTime": "2025-05-17T03:59:00.000Z",
+      "isWidgetEvent": false,
+      "orgPhone": "6479078580",
+      "freeEvent": "No",
+      "startDateTime": "2025-05-17T00:00:00.000Z",
+      "reservationsRequired": "Yes",
+      "orgEmail": "shah@bloomimmersive.com",
+      "locations": [
+        {
+          "locationName": "Super Wonder Gallery",
+          "address": "1162 Bloor St W, Toronto, ON M6H 1N1, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "f71076c5-350a-1f3b-d298-ece79b7f4782",
+          "type": "marker",
+          "$$hashKey": "object:3774",
+          "coords": { "lng": -79.43685219999999, "lat": 43.6596633 }
+        }
+      ],
+      "partnerType": "none",
+      "category": [{ "name": "Arts/Exhibits" }],
+      "eventWebsite": "https://bloomimmersive.com/",
+      "recId": "IACfAxcgXwOW1uDYoQZtFA",
+      "startDate": "2025-05-16T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Arts/Exhibits",
+      "accessibility": "none",
+      "endDate": "2025-05-15T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Approved DP 05/12/25",
+        "newsletterCategory": [],
+        "updatedBy": "dperry",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-05-12T19:16:49.903Z",
+        "includeInNewsletter": false,
+        "featuredEvent": "false",
+        "approvedBy": "dperry",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-05-12T19:16:49.903Z"
+      },
+      "description": "Let your dreams and goals be made into art at our vision board workshop. Work with a variety of images and unique materials to create an artistic vision board designed to manifest your dreams into reality. Enjoy some tea with a splash of art therapy by practitioner and owner of Artbox, Natasha Aird.",
+      "orgAddress": "1226 Kingston Road",
+      "frequency": "once",
+      "features": { "Paid Parking": true, "Public Washrooms": true },
+      "orgType": "Private/Business",
+      "thumbImage": {
+        "fileName": "visionca_th.png",
+        "binId": "u9ySKCWXEwwtaZYTnjCB7w",
+        "fileSize": 27241,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/visionca_th_u9ySKCWXEwwtaZYTnjCB7w.png"
+      },
+      "terms": "agree",
+      "eventEmail": "events@artboxtoronto.com",
+      "eventName": "A Vision Board Wellness Workshop",
+      "reservation": {
+        "website": "https://www.artboxstudiogallery.com/event-details-registration/vision-board-wellness-workshop-2025-05-15-20-00",
+        "phone": "4166909550",
+        "email": "events@artboxtoronto.com"
+      },
+      "theme": [],
+      "themeString": "",
+      "subsetCalendarString": "",
+      "admissionType": "GA",
+      "image": {
+        "fileName": "visionca.jpg",
+        "binId": "FTuKrKTSrGZmxXS9539cyQ",
+        "altText": "Vision Board Wellness Workshop",
+        "fileSize": 839105,
+        "fileType": "image/jpeg",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/visionca_FTuKrKTSrGZmxXS9539cyQ.jpg"
+      },
+      "cost": { "ga": 42.79 },
+      "orgName": "Artbox Studio &amp; Gallery",
+      "contactName": "Natasha. A",
+      "eventPhone": "4166909550",
+      "dates": [
+        {
+          "startDateTime": "2025-05-16T00:00:00.000Z",
+          "endDateTime": "2025-05-16T02:00:00.000Z"
+        }
+      ],
+      "endDateTime": "2025-05-16T02:00:00.000Z",
+      "isWidgetEvent": false,
+      "orgPhone": "4166909550",
+      "freeEvent": "No",
+      "startDateTime": "2025-05-16T00:00:00.000Z",
+      "reservationsRequired": "Yes",
+      "orgEmail": "events@artboxtoronto.com",
+      "locations": [
+        {
+          "locationName": "Artbox Studio &amp; Gallery",
+          "address": "1226 Kingston Rd, Toronto, ON M1N 1P3, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "828e7fd4-0260-1562-9102-ab0504f6575d",
+          "type": "marker",
+          "$$hashKey": "object:25036",
+          "coords": { "lng": -79.2789054, "lat": 43.682599 }
+        }
+      ],
+      "partnerType": "none",
+      "category": [{ "name": "Arts/Exhibits" }],
+      "eventWebsite": "https://www.artboxstudiogallery.com",
+      "recId": "EPE7jF9prwXAZTXE$DNoVw",
+      "startDate": "2025-05-15T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Charity/Cause,Family/Children,Running,Walking",
+      "accessibility": "full",
+      "endDate": "2025-05-31T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Sajeetha C. 04/16/2025 Approved. Edited description, cropped image.",
+        "newsletterCategory": [],
+        "updatedBy": "schandr2",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-04-16T15:38:20.240Z",
+        "includeInNewsletter": false,
+        "featuredEvent": "false",
+        "approvedBy": "schandr2",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-04-16T15:38:20.239Z"
+      },
+      "description": "This event features a 5K run and a 1K Kids Run, both set against the scenic backdrop of Morningside Park.&#10;Proceeds support the Boys &amp; Girls Club of East Scarborough, helping us build a stronger, more connected community.&#10;&#10;Whether you're a seasoned runner or just getting started, come be a part of this annual tradition.&#10;&#10;Not running? We&#8217;re also looking for volunteers to help bring the day to life&#8212;cheer squads, water station crew, and more!&#10;&#10;Register or sign up to volunteer at Race Roster, and follow @thescarborough5k on Instagram for updates.",
+      "orgAddress": "1550 Bathurst Street Apt 201",
+      "frequency": "once",
+      "features": {
+        "Onsite Food and Beverages": true,
+        "Public Washrooms": true,
+        "Free Parking": true
+      },
+      "orgType": "Non-Profit",
+      "thumbImage": {
+        "fileName": "Screenshot 2025-04-16 113719_th.png",
+        "binId": "rfztcXovePu96HRk5653IA",
+        "fileSize": 12855,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Screenshot 2025-04-16 113719_th_rfztcXovePu96HRk5653IA.png"
+      },
+      "contactTitle": "Administrator",
+      "terms": "agree",
+      "eventEmail": "info@scarborough5K.ca",
+      "eventName": "Scarborough 5K",
+      "reservation": {
+        "website": "https://raceroster.com/events/2025/102049/2025-scarborough-5k"
+      },
+      "theme": [],
+      "themeString": "",
+      "expectedAvg": 400,
+      "subsetCalendarString": "",
+      "admissionType": "Ind",
+      "image": {
+        "fileName": "Screenshot 2025-04-16 113719.png",
+        "altText": "A minimalist black-and-white graphic shows a bold, abstract figure in motion, made up of sweeping curved lines within a rounded square.",
+        "binId": "Yrm0ru_mRTG8BAXz3HbTow",
+        "fileSize": 15013,
+        "credit": "@arturdionn",
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Screenshot 2025-04-16 113719_Yrm0ru_mRTG8BAXz3HbTow.png"
+      },
+      "cost": { "adult": 30, "child": 15 },
+      "orgName": "Black Runners of the GTA (BRGTA) and the Canada Running Series Foundation (CRS Foundation)",
+      "otherCostInfo": "Registration Fee  + $15 min mandatory donation. &#10;Green Bib Registration Option: $40",
+      "partnerName": "Black Runners of the GTA and the Canada Running Series Foundation",
+      "contactName": "Leah Sweed",
+      "dates": [
+        { "startDateTime": "2025-05-31T13:00:00.000Z", "endDateTime": null }
+      ],
+      "endDateTime": null,
+      "isWidgetEvent": false,
+      "orgPhone": "4166565676",
+      "freeEvent": "No",
+      "startDateTime": "2025-05-31T13:00:00.000Z",
+      "reservationsRequired": "Yes",
+      "orgEmail": "sponsorship@scarborough5K.ca",
+      "locations": [
+        {
+          "locationName": "Morningside Park",
+          "address": "390 Morningside Ave, Toronto, ON M1E, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "6bb74986-14d7-e641-c223-713cae6c0cb3",
+          "type": "marker",
+          "$$hashKey": "object:5244",
+          "coords": { "lng": -79.19717419999999, "lat": 43.7809411 }
+        }
+      ],
+      "partnerType": "presentedby",
+      "category": [
+        { "name": "Charity/Cause" },
+        { "name": "Family/Children" },
+        { "name": "Running" },
+        { "name": "Walking" }
+      ],
+      "eventWebsite": "https://raceroster.com/events/2025/102049/2025-scarborough-5k",
+      "recId": "qbIh9OzPUpMT2q5u7DH5sQ",
+      "startDate": "2025-05-31T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Charity/Cause,Live Performances,Music",
+      "accessibility": "full",
+      "endDate": "2025-05-30T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Approved DP 03/04/25 (removed image due to text, added context to title to differentiate from another event with same title)",
+        "newsletterCategory": [],
+        "updatedBy": "dperry",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-03-04T16:12:38.024Z",
+        "includeInNewsletter": false,
+        "featuredEvent": "false",
+        "approvedBy": "dperry",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-03-04T16:12:38.023Z"
+      },
+      "description": "A show featuring Victoria-based Ukrainian bandurist Mariia Smolinska and Toronto-based folk fatale duet band DIVKA! &#10;&#10;Presented by the Toronto Bandura Festival, Bandura on Bloor is a musical concert series in Toronto showcasing solo bandura performers, small ensembles, and bands featuring the bandura. Join us for this delightful opportunity to spend your Friday evening with the magical sounds of the bandura in downtown Toronto!&#10;&#10;This performance will be followed by a post-concert reception for all the guests and performers.&#10;&#10;All net proceeds from this event will be donated to the Canada-Ukraine Foundation.",
+      "orgAddress": "3665 Greenbower Court, Mississauga, ON L5L 1P3",
+      "frequency": "once",
+      "features": { "Free Parking": false },
+      "thumbImage": {},
+      "contactTitle": "",
+      "terms": "agree",
+      "eventEmail": "torontobandurafestival@gmail.com",
+      "eventName": "Bandura on Bloor: Mariia Smolinska and DIVKA",
+      "reservation": {
+        "website": "https://www.showpass.com/bandura-on-bloor-may30/",
+        "phone": "4168452691",
+        "email": "torontobandurafestival@gmail.com"
+      },
+      "theme": [],
+      "themeString": "",
+      "expectedAvg": 100,
+      "subsetCalendarString": "",
+      "admissionType": "Rng",
+      "cost": { "from": 25, "to": 35 },
+      "orgName": "Toronto Bandura Festival",
+      "otherCostInfo": "Early Bird: $25.00&#10;Regular: $35.00&#10;Senior: $30.00&#10;Under-30: $30.00&#10;Under-12: Free",
+      "partnerName": "Toronto Bandura Festival",
+      "contactName": "Orest Chornomaz",
+      "eventPhone": "4168452691",
+      "dates": [
+        {
+          "startDateTime": "2025-05-30T23:30:00.000Z",
+          "endDateTime": "2025-05-31T01:00:00.000Z"
+        }
+      ],
+      "endDateTime": "2025-05-31T01:00:00.000Z",
+      "isWidgetEvent": false,
+      "orgPhone": "4168452691",
+      "freeEvent": "No",
+      "startDateTime": "2025-05-30T23:30:00.000Z",
+      "reservationsRequired": "Yes",
+      "orgEmail": "torontobandurafestival@gmail.com",
+      "locations": [
+        {
+          "locationName": "Royal York Road United Church",
+          "address": "851 Royal York Rd, Etobicoke, ON M8Y 2V3, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "b298f0b6-8ae4-4ec3-4ca0-9161ad102cff",
+          "type": "marker",
+          "$$hashKey": "object:4012",
+          "coords": { "lng": -79.50891299999999, "lat": 43.6427455 }
+        }
+      ],
+      "partnerType": "presentedby",
+      "category": [
+        { "name": "Charity/Cause" },
+        { "name": "Live Performances" },
+        { "name": "Music" }
+      ],
+      "eventWebsite": "https://torontobandurafestival.ca/events/bandura-on-bloor/may-30/",
+      "recId": "M5YMGy5p0$u$ZXHBZhkkuw",
+      "startDate": "2025-05-30T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Dance",
+      "accessibility": "full",
+      "endDate": "2025-05-24T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Approved DP 04/24/25",
+        "newsletterCategory": [],
+        "updatedBy": "dperry",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-04-24T22:00:12.107Z",
+        "includeInNewsletter": false,
+        "featuredEvent": "false",
+        "approvedBy": "dperry",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-04-24T22:00:12.107Z"
+      },
+      "description": "Featuring World Premieres by Florida-based Peter Chu and Artistic Director, Deborah Lundmark, with audience favourites by Jennifer Archibald, Colin Connor, and Roderick George highlighting the company&#8217;s annual home season of cutting-edge contemporary dance.&#10;&#10;...simply breathtaking&#10;- Michael Crabb, Dance International&#8203;&#10;&#10;&#8203;CCDT can take its place among the ranks of Toronto&#8217;s top dance companies.&#10;- Paula Citron, The Globe and Mail",
+      "orgAddress": "509 Parliament St",
+      "frequency": "dates",
+      "orgType": "Non-Profit",
+      "thumbImage": {},
+      "terms": "agree",
+      "eventEmail": "development@ccdt.org",
+      "eventName": "TEMPERED",
+      "reservation": { "website": "https://www.ccdt.org/tempered25" },
+      "theme": [],
+      "themeString": "",
+      "subsetCalendarString": "",
+      "admissionType": "Ind",
+      "cost": { "student": 30, "adult": 48 },
+      "orgName": "CCDT",
+      "otherCostInfo": "Artists and Arts Workers: $30.00",
+      "partnerName": "Canadian Contemporary Dance Theatre",
+      "contactName": "Natasha Jorge-Moore",
+      "eventPhone": "4169245657",
+      "dates": [
+        {
+          "startDateTime": "2025-05-24T00:00:00.000Z",
+          "endDateTime": "2025-05-24T01:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-25T00:00:00.000Z",
+          "endDateTime": "2025-05-25T01:30:00.000Z"
+        }
+      ],
+      "isWidgetEvent": false,
+      "orgPhone": "4169245657",
+      "freeEvent": "No",
+      "reservationsRequired": "Yes",
+      "orgEmail": "development@ccdt.org",
+      "locations": [
+        {
+          "locationName": "The Creative School Chrysalis, Toronto Metropolitan University",
+          "address": "43 Gerrard St E, Toronto, ON M5G 2A7, Canada",
+          "displayAddress": "",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "f4ae305c-9807-479a-19e5-2549897ee37f",
+          "type": "marker",
+          "$$hashKey": "object:47307",
+          "coords": { "lng": -79.37989999999999, "lat": 43.65929999999999 }
+        }
+      ],
+      "partnerType": "presentedby",
+      "category": [{ "name": "Dance" }],
+      "eventWebsite": "https://www.ccdt.org/tempered25",
+      "recId": "QL8q5ROFduCUKut_YQhmZw",
+      "startDate": "2025-05-23T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Dance,Street Festival",
+      "accessibility": "full",
+      "endDate": "2025-08-10T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Edited and approved by Yiheng Li 05/30/2025. Edited description and cropped image to remove text.",
+        "newsletterCategory": [],
+        "updatedBy": "ylie",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-05-30T20:23:43.052Z",
+        "includeInNewsletter": false,
+        "featuredEvent": false,
+        "approvedBy": "ylie",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-05-30T20:23:43.052Z"
+      },
+      "description": "Join us for salsa lessons and dancing, as well as a Latin American cultural celebration featuring Salsa dancing and live music.",
+      "orgAddress": "258 Adelaide Street East",
+      "frequency": "dates",
+      "orgType": "Public Agency",
+      "thumbImage": {
+        "fileName": "2D8LrlQeTjpBpgV2dYiCyQ_th.png",
+        "binId": "ON8i2yyasJqA54JQRFmQNQ",
+        "fileSize": 25928,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/2D8LrlQeTjpBpgV2dYiCyQ_th_ON8i2yyasJqA54JQRFmQNQ.png"
+      },
+      "contactTitle": "Director of Operations",
+      "terms": "agree",
+      "eventName": "Salsa On Market Street",
+      "theme": [],
+      "themeString": "",
+      "expectedAvg": 100,
+      "subsetCalendarString": "",
+      "image": {
+        "fileName": "2D8LrlQeTjpBpgV2dYiCyQ.png",
+        "altText": "A man twirling a woman in dance.",
+        "binId": "qDMzOJHuWDk8h4eXrrlS0Q",
+        "fileSize": 751392,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/2D8LrlQeTjpBpgV2dYiCyQ_qDMzOJHuWDk8h4eXrrlS0Q.png"
+      },
+      "orgName": "Old Town Toronto",
+      "partnerName": "Old Town Toronto",
+      "contactName": "Stephen Thomas Maciejowski",
+      "dates": [
+        {
+          "startDateTime": "2025-06-27T22:00:00.000Z",
+          "description": "Salsa On Market Street",
+          "endDateTime": "2025-06-28T00:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-11T22:00:00.000Z",
+          "description": "Salsa On Market Street",
+          "endDateTime": "2025-07-12T00:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-07-18T22:00:00.000Z",
+          "description": "Salsa On Market Street",
+          "endDateTime": "2025-07-19T00:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-08-10T17:00:00.000Z",
+          "description": "Latin American Celebration",
+          "endDateTime": "2025-08-10T22:00:00.000Z"
+        }
+      ],
+      "isWidgetEvent": false,
+      "orgPhone": "4168560320",
+      "freeEvent": "Yes",
+      "reservationsRequired": "No",
+      "orgEmail": "stephenm@oldtowntoronto.ca",
+      "locations": [
+        {
+          "locationName": "Market Street",
+          "address": "8 Market St., Toronto, ON M5E 1M6, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "65580d3d-dc2d-23e5-b2ed-13d854b810fd",
+          "type": "marker",
+          "$$hashKey": "object:22781",
+          "coords": { "lng": -79.3719689, "lat": 43.6482864 }
+        }
+      ],
+      "partnerType": "presentedby",
+      "category": [{ "name": "Dance" }, { "name": "Street Festival" }],
+      "eventWebsite": "https://oldtowntoronto.ca/events-festivals/?182696837=476",
+      "recId": "uAQioogCrdz2bc5IkPshCg",
+      "startDate": "2025-06-27T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Food/Culinary,Live Performances,Music",
+      "accessibility": "full",
+      "endDate": "2025-05-08T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Approved DP 05/01/25",
+        "newsletterCategory": [],
+        "updatedBy": "dperry",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-05-01T19:52:12.478Z",
+        "includeInNewsletter": false,
+        "featuredEvent": "false",
+        "approvedBy": "dperry",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-05-01T19:52:12.478Z"
+      },
+      "description": "This groovy folk-rock super duo combines the talents of Kim Manning (Zuffalo) and Mikey Vukovich (Zuffalo, Jackets). Currently based out of Toronto, these two have been performing together in various arrangements for 9 years. M &amp; the V offer catchy melodies through their use of keyboards and electric guitar, which further comes alive in their use of improvisation. It has also been said that their beautiful harmonies and upbeat tunes will make ya move like you just ate Mom&#8217;s homemade spicy chilli.",
+      "orgAddress": "458 Queen Street W",
+      "frequency": "once",
+      "features": { "Onsite Food and Beverages": true },
+      "orgType": "Private/Business",
+      "thumbImage": {
+        "fileName": "ManningandTheVook_th.png",
+        "binId": "5wFWdEKFkiZCHRvNn6szPg",
+        "fileSize": 50013,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/ManningandTheVook_th_5wFWdEKFkiZCHRvNn6szPg.png"
+      },
+      "terms": "agree",
+      "eventName": "Wednesday Late Night Folk Rock Duo with Manning &amp; The Vook",
+      "theme": [],
+      "themeString": "",
+      "subsetCalendarString": "",
+      "admissionType": "Pwyc",
+      "image": {
+        "fileName": "ManningandTheVook.jpeg",
+        "binId": "Drf7ibc9Q4FHMj144lrdKw",
+        "altText": "Two people smiling and sitting down on an orange velvet couch, one person wearing a hat and holding an acoustic guitar and the other has ginger hair and bangs with their hands in their lap.",
+        "fileSize": 299714,
+        "fileType": "image/jpeg",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/ManningandTheVook_Drf7ibc9Q4FHMj144lrdKw.jpeg"
+      },
+      "orgName": "DROM Taberna",
+      "otherCostInfo": "We're a Pay What You Can venue, tip musicians and support live music!",
+      "contactName": "DROM Taberna",
+      "dates": [
+        {
+          "startDateTime": "2025-05-08T03:00:00.000Z",
+          "endDateTime": "2025-05-08T05:00:00.000Z"
+        }
+      ],
+      "endDateTime": "2025-05-08T05:00:00.000Z",
+      "isWidgetEvent": false,
+      "orgPhone": "6477482099",
+      "freeEvent": "No",
+      "startDateTime": "2025-05-08T03:00:00.000Z",
+      "reservationsRequired": "No",
+      "orgEmail": "booking@dromtaberna.com",
+      "locations": [
+        {
+          "locationName": "DROM Taberna",
+          "address": "458 Queen St W, Toronto, ON M5V 2A8, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "2b9c7315-0ea2-0040-a856-b573357f4991",
+          "type": "marker",
+          "$$hashKey": "object:17736",
+          "coords": { "lng": -79.39955639814757, "lat": 43.64820526759893 }
+        }
+      ],
+      "partnerType": "none",
+      "category": [
+        { "name": "Food/Culinary" },
+        { "name": "Live Performances" },
+        { "name": "Music" }
+      ],
+      "eventWebsite": "https://www.dromtaberna.com/events-9O8Cm/596t68fa3dls5mr-f59lm-tstxe-rfe8p-c3yj7-l239n-2n7wk",
+      "recId": "vNmm8ZZOUsZmsccHZgrheg",
+      "startDate": "2025-05-07T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Arts/Exhibits",
+      "accessibility": "none",
+      "endDate": "2025-05-13T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Approved DP 05/12/25",
+        "newsletterCategory": [],
+        "updatedBy": "dperry",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-05-12T19:12:08.881Z",
+        "includeInNewsletter": false,
+        "featuredEvent": "false",
+        "approvedBy": "dperry",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-05-12T19:12:08.881Z"
+      },
+      "description": "Design your own custom tote bag in this playful, hands-on workshop! Choose to paint directly or create a digital collage to heat press onto your bag&#8212;we provide the tools, guidance, and plenty of room for creative freedom.&#10;&#10;Please see more Paint Workshops here: https://www.artboxstudiogallery.com/paint-workshops",
+      "orgAddress": "1226 Kingston Road",
+      "frequency": "once",
+      "features": { "Paid Parking": true, "Public Washrooms": true },
+      "orgType": "Private/Business",
+      "thumbImage": {
+        "fileName": "20_th.png",
+        "binId": "3DSUXIY3N7-p8NQjPhjdmg",
+        "fileSize": 28796,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/20_th_3DSUXIY3N7-p8NQjPhjdmg.png"
+      },
+      "terms": "agree",
+      "eventEmail": "events@artboxtoronto.com",
+      "eventName": "A Custom Tote Bag Workshop",
+      "reservation": {
+        "website": "https://www.artboxstudiogallery.com/event-details-registration/custom-tote-bag-workshop-2025-05-13-20-00-1",
+        "phone": "4166909550",
+        "email": "events@artboxtoronto.com"
+      },
+      "theme": [],
+      "themeString": "",
+      "subsetCalendarString": "",
+      "admissionType": "Rng",
+      "image": {
+        "fileName": "20.jpg",
+        "binId": "1j2Q7DZp-vHyCoZEvJXQiA",
+        "altText": "Custom Tote Bag Workshop",
+        "fileSize": 133738,
+        "fileType": "image/jpeg",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/20_1j2Q7DZp-vHyCoZEvJXQiA.jpg"
+      },
+      "cost": { "from": 52.06, "to": 63.64 },
+      "orgName": "Artbox Studio &amp; Gallery",
+      "contactName": "Natasha. A",
+      "eventPhone": "4166909550",
+      "dates": [
+        {
+          "startDateTime": "2025-05-14T00:00:00.000Z",
+          "endDateTime": "2025-05-14T02:00:00.000Z"
+        }
+      ],
+      "endDateTime": "2025-05-14T02:00:00.000Z",
+      "isWidgetEvent": false,
+      "orgPhone": "4166909550",
+      "freeEvent": "No",
+      "startDateTime": "2025-05-14T00:00:00.000Z",
+      "reservationsRequired": "Yes",
+      "orgEmail": "events@artboxtoronto.com",
+      "locations": [
+        {
+          "locationName": "Artbox Studio &amp; Gallery",
+          "address": "1226 Kingston Rd, Toronto, ON M1N 1P3, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "72bc7391-5a35-619c-226b-2e4bb2eede9f",
+          "type": "marker",
+          "$$hashKey": "object:20899",
+          "coords": { "lng": -79.2789054, "lat": 43.682599 }
+        }
+      ],
+      "partnerType": "none",
+      "category": [{ "name": "Arts/Exhibits" }],
+      "eventWebsite": "https://www.artboxstudiogallery.com",
+      "recId": "VqWtImeiuk7X8qPnY1WksQ",
+      "startDate": "2025-05-13T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Arts/Exhibits,Food/Culinary",
+      "accessibility": "full",
+      "endDate": "2025-05-20T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Sajeetha C. 04/02/2025 Approved. Edited description and title.",
+        "newsletterCategory": [],
+        "updatedBy": "schandr2",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-04-02T13:25:20.808Z",
+        "includeInNewsletter": false,
+        "featuredEvent": "false",
+        "approvedBy": "schandr2",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-04-02T13:25:20.808Z"
+      },
+      "description": "We are pleased to announce the opening showcase of Toronto-based artist Michael Bedford.&#10;&#10;Michael Bedford is a fine art photographer and painter. Trained as a biologist, Michael&#8217;s work explores aspects of both the human psyche and the natural world. The inaugural exhibition, titled &#34;Light and Lack Thereof&#34;, is a powerful collection of Bedford&#8217;s work which delves deep into the duality of light and darkness. &#10;&#10;The Artist Series is a new innovative to support local talent and enrich the cultural landscape of the city by offering rotating exhibits &amp; hosting artist parties.",
+      "orgAddress": "563 Bloor St. West Toronto Ontario",
+      "frequency": "dates",
+      "features": { "Onsite Food and Beverages": true },
+      "orgType": "Private/Business",
+      "thumbImage": {
+        "fileName": "Michael Bedford_Headshot 2 copy_th.png",
+        "binId": "6gxycUQT_RUAgtQkzP1O7g",
+        "fileSize": 34599,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Michael Bedford_Headshot 2 copy_th_6gxycUQT_RUAgtQkzP1O7g.png"
+      },
+      "contactTitle": "Creative Coordinator",
+      "terms": "agree",
+      "eventEmail": "info@insomniarestaurant.com",
+      "eventName": "The Artist Series featuring Michael Bedford",
+      "theme": [],
+      "themeString": "",
+      "expectedAvg": 60,
+      "subsetCalendarString": "",
+      "image": {
+        "fileName": "Michael Bedford_Headshot 2 copy.jpg",
+        "altText": "Black, grey background. Natural light casting shadows and highlighting the face of artist Michael Bedford.",
+        "binId": "X6HNrq6kHfBxrcmz2uwcig",
+        "fileSize": 39008,
+        "credit": "Michael Bedford - Self Portrait",
+        "fileType": "image/jpeg",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Michael Bedford_Headshot 2 copy_X6HNrq6kHfBxrcmz2uwcig.jpg"
+      },
+      "orgName": "Insomnia Restaurant and Lounge",
+      "otherCostInfo": "Although reservations are not required we encourage guests to make a reservation if they plan on attending and wish to dine in the restaurant.",
+      "contactName": "Sophia Wilson",
+      "eventPhone": "4165883907",
+      "dates": [
+        {
+          "startDateTime": "2025-04-13T23:00:00.000Z",
+          "description": "Opening Showcase Party",
+          "endDateTime": "2025-04-14T01:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-18T23:00:00.000Z",
+          "description": "Closing Showcase Party",
+          "endDateTime": "2025-05-19T01:00:00.000Z"
+        }
+      ],
+      "isWidgetEvent": false,
+      "orgPhone": "6479493012",
+      "freeEvent": "Yes",
+      "timeInfo": "The exhibition will run for several weeks, giving visitors the chance to experience and acquire Bedford's captivating work.",
+      "reservationsRequired": "No",
+      "orgEmail": "insomniaarts.to@gmail.com",
+      "locations": [
+        {
+          "locationName": "Insomnia Restaurant &amp; Lounge",
+          "address": "563 Bloor St W, Toronto, ON M5S 1Y6, Canada",
+          "displayAddress": "",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "f4a75cf2-6f01-d494-5196-65d8363b5a6f",
+          "type": "marker",
+          "$$hashKey": "object:3094",
+          "coords": { "lng": -79.4107916, "lat": 43.6650461 }
+        }
+      ],
+      "partnerType": "none",
+      "category": [{ "name": "Arts/Exhibits" }, { "name": "Food/Culinary" }],
+      "eventWebsite": "https://www.insomniarestaurant.com/visual-artist-series",
+      "recId": "oc$mkloadjWvj$v6eI$M2w",
+      "startDate": "2025-04-02T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Celebration,LGBTQ2S+,Nightlife",
+      "accessibility": "full",
+      "endDate": "2025-06-30T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Edited and approved by Yiheng Li 05/20/2025. Edited price details and cropped image to remove logo text.",
+        "newsletterCategory": [],
+        "updatedBy": "ylie",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-05-20T15:57:19.455Z",
+        "includeInNewsletter": false,
+        "featuredEvent": false,
+        "approvedBy": "ylie",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-05-20T15:57:19.455Z"
+      },
+      "description": "Calling all queers! The best party on the block takes over the whole building for Queer Pride. Catch Toronto&#8217;s top drag and burlesque acts in a super-charged show, and stay late dancing to the hottest tracks with our guest DJs.",
+      "orgAddress": "12 Alexander Street",
+      "frequency": "once",
+      "features": {
+        "Paid Parking": true,
+        "Onsite Food and Beverages": true,
+        "Public Washrooms": true,
+        "Bike Racks": true
+      },
+      "orgType": "Private/Business",
+      "thumbImage": {
+        "fileName": "_J8LAmmyBswsdlVzQJoVLg_th.png",
+        "binId": "R_cfeyYv_JORm8Liphzgzg",
+        "fileSize": 47836,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/_J8LAmmyBswsdlVzQJoVLg_th_R_cfeyYv_JORm8Liphzgzg.png"
+      },
+      "contactTitle": "Assistant Marketing Coordinator",
+      "terms": "agree",
+      "eventName": "Tallulah's Pride Party - Sunday",
+      "reservation": {
+        "website": "https://www.showpass.com/tallulahs-pride-party-sunday/"
+      },
+      "theme": [],
+      "themeString": "",
+      "subsetCalendarString": "",
+      "admissionType": "GA",
+      "image": {
+        "fileName": "_J8LAmmyBswsdlVzQJoVLg.jpg",
+        "altText": "A bold and expressive individual poses confidently in eclectic, colorful attire against a vibrant green background.",
+        "binId": "2OzaBStvdpLy4aXmGMCQsg",
+        "fileSize": 174957,
+        "fileType": "image/jpeg",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/_J8LAmmyBswsdlVzQJoVLg_2OzaBStvdpLy4aXmGMCQsg.jpg"
+      },
+      "cost": { "ga": 18 },
+      "orgName": "Buddies In Bad Times",
+      "contactName": "Anna Dysart",
+      "dates": [
+        {
+          "startDateTime": "2025-06-30T02:30:00.000Z",
+          "endDateTime": "2025-06-30T06:00:00.000Z"
+        }
+      ],
+      "endDateTime": "2025-06-30T06:00:00.000Z",
+      "isWidgetEvent": false,
+      "orgPhone": "5065664501",
+      "freeEvent": "No",
+      "startDateTime": "2025-06-30T02:30:00.000Z",
+      "reservationsRequired": "Yes",
+      "orgEmail": "anna@buddiesinbadtimes.com",
+      "locations": [
+        {
+          "locationName": "Buddies In Bad Times Theatre",
+          "address": "12 Alexander St, Toronto, ON M4Y 1B4, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "4beac6b8-3a49-7097-8b1e-e34d5e706fe2",
+          "type": "marker",
+          "$$hashKey": "object:34225",
+          "coords": { "lng": -79.38306589999999, "lat": 43.6633185 }
+        }
+      ],
+      "partnerType": "none",
+      "category": [
+        { "name": "Celebration" },
+        { "name": "LGBTQ2S+" },
+        { "name": "Nightlife" }
+      ],
+      "eventWebsite": "https://www.showpass.com/tallulahs-pride-party-sunday/",
+      "recId": "vEHCA2SystjJ1bo6rZwRdQ",
+      "startDate": "2025-06-29T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Music,Talks",
+      "accessibility": "none",
+      "endDate": "2025-06-14T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Sajeetha C. 04/16/2025 Approved. Edited description, cropped image.",
+        "newsletterCategory": [],
+        "updatedBy": "schandr2",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-04-16T13:22:24.358Z",
+        "includeInNewsletter": false,
+        "featuredEvent": "false",
+        "approvedBy": "schandr2",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-04-16T13:22:24.358Z"
+      },
+      "description": "Legendary podcaster, broadcaster, and music expert Alan Cross talks all about U2 - at Toronto's U2 Day. U2 Day runs from 3:00 pm until very late, but Alan Cross takes the stage at 7:00 pm to talk all about U2 and take your questions.&#10;&#10;Hourly door prizes, including retro record players (but with Bluetooth) complete with U2 coloured vinyl records to go with each on. And custom U2 bluetooth speakers - pre-loaded with U2's biggest hits.",
+      "orgAddress": "1245 St. Clair Avenue West",
+      "frequency": "once",
+      "features": { "Paid Parking": true },
+      "orgType": "Private/Business",
+      "thumbImage": {
+        "fileName": "Screenshot 2025-04-16 092103_th.png",
+        "binId": "rvF7aRnMyJARkjqnj03Rsg",
+        "fileSize": 31362,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Screenshot 2025-04-16 092103_th_rvF7aRnMyJARkjqnj03Rsg.png"
+      },
+      "terms": "agree",
+      "eventName": "Alan Cross Talks - All About U2",
+      "theme": [{ "name": "" }],
+      "themeString": "",
+      "expectedAvg": 300,
+      "subsetCalendarString": "",
+      "image": {
+        "fileName": "Screenshot 2025-04-16 092103.png",
+        "altText": "Black and white image of Allan smirking while creasing his forehead.",
+        "binId": "nrR3knHyXKxniJP-cGc8zQ",
+        "fileSize": 447824,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Screenshot 2025-04-16 092103_nrR3knHyXKxniJP-cGc8zQ.png"
+      },
+      "orgName": "Cat's Cradle",
+      "contactName": "Barb",
+      "dates": [
+        {
+          "startDateTime": "2025-06-14T23:00:00.000Z",
+          "endDateTime": "2025-06-15T00:00:00.000Z"
+        }
+      ],
+      "endDateTime": "2025-06-15T00:00:00.000Z",
+      "isWidgetEvent": false,
+      "orgPhone": "4163153333",
+      "freeEvent": "Yes",
+      "startDateTime": "2025-06-14T23:00:00.000Z",
+      "reservationsRequired": "No",
+      "orgEmail": "martysteeletoronto@gmail.com",
+      "locations": [
+        {
+          "locationName": "Cat's Cradle Sports and Spirits",
+          "address": "1245 St Clair Ave W, Toronto, ON M6E 1B8, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "cf90d1bf-ac41-d567-5312-e1504496c046",
+          "type": "marker",
+          "$$hashKey": "object:3163",
+          "coords": { "lng": -79.44595129999999, "lat": 43.6771235 }
+        }
+      ],
+      "partnerType": "none",
+      "category": [{ "name": "Music" }, { "name": "Talks" }],
+      "eventWebsite": "https://www.eventbrite.ca/e/alan-cross-talks-all-about-u2-tickets-1322742320889",
+      "recId": "JHzjtE3ptI0dzch6qE0KHw",
+      "startDate": "2025-06-14T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "History,Tour,Walking",
+      "orgTypeOther": "City of Toronto",
+      "accessibility": "none",
+      "endDate": "2025-05-25T04:00:00.000Z",
+      "isCityEvent": true,
+      "admin": {
+        "newsletterCategory": [],
+        "includeInMainCalendar": true,
+        "updatedBy": "rwaters",
+        "subsetCalendar": [{ "value": "7 Doors Open Guided Tours" }],
+        "approvedTimestamp": "2025-04-17T18:11:43.224Z",
+        "includeInNewsletter": false,
+        "featuredEvent": "false",
+        "approvedBy": "rwaters",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-04-17T18:11:43.224Z"
+      },
+      "description": "You can learn a lot about a city through the stories of the athletes it has celebrated and cheered on. Toronto&#8217;s past is filled with dramatic tales of sports heroes who have brought us championships and heartbreak &#8211; and shaped our city in the process. In this walk, we&#8217;ll trace that history through downtown Toronto and the waterfront, visiting long-lost stadiums, exploring Edwardian victory parades and uncovering stories of forgotten glories. Discover inspiring tales about icons &#8211; from Tom Longboat to Terry Fox, and Babe Ruth to Joe Carter &#8211; and learn about the impact their athletic exploits have had on the city&#8217;s identity.",
+      "orgAddress": "100 Queen St. West 6W",
+      "frequency": "dates",
+      "orgType": "Other",
+      "thumbImage": {
+        "fileName": "Adam Bunch_IMG_6481_th.png",
+        "binId": "uUlg0Od60DFElWKpsmvhHQ",
+        "fileSize": 25666,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Adam Bunch_IMG_6481_th_uUlg0Od60DFElWKpsmvhHQ.png"
+      },
+      "contactTitle": "Programming Supervisor",
+      "terms": "agree",
+      "eventName": "The Triumphs &amp; Tragedies of Toronto's Sports Icons",
+      "reservation": {
+        "website": "https://www.eventbrite.ca/e/the-triumphs-tragedies-of-torontos-sports-icons-tickets-1299776629889?aff=oddtdtcreator"
+      },
+      "theme": [],
+      "themeString": "",
+      "expectedAvg": 400,
+      "subsetCalendarString": "7 Doors Open Guided Tours",
+      "image": {
+        "fileName": "Adam Bunch_IMG_6481.jpeg",
+        "binId": "A4d2TUcsITdQxR63PR3mTQ",
+        "altText": "A black and white photo showing a baseball player taking a swing at a ball, with a large crowd in a stadium behind.",
+        "fileSize": 667408,
+        "fileType": "image/jpeg",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Adam Bunch_IMG_6481_A4d2TUcsITdQxR63PR3mTQ.jpeg"
+      },
+      "orgName": "Doors Open - City of Toronto",
+      "otherCostInfo": "Registration opens May 1 at 9 a.m.",
+      "contactName": "Kristine Williamson",
+      "dates": [
+        {
+          "startDateTime": "2025-05-24T16:00:00.000Z",
+          "endDateTime": "2025-05-24T17:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-24T19:30:00.000Z",
+          "endDateTime": "2025-05-24T21:00:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-25T16:00:00.000Z",
+          "endDateTime": "2025-05-25T17:30:00.000Z"
+        },
+        {
+          "startDateTime": "2025-05-25T19:30:00.000Z",
+          "endDateTime": "2025-05-25T21:00:00.000Z"
+        }
+      ],
+      "isWidgetEvent": false,
+      "orgPhone": "4163927850",
+      "freeEvent": "Yes",
+      "timeInfo": "Tour takes place on flat, grass, and sidewalk terrain. Includes stairs and covers a large area.",
+      "reservationsRequired": "Yes",
+      "orgEmail": "kristine.williamson@toronto.ca",
+      "locations": [
+        {
+          "locationName": "King &amp; Simcoe",
+          "address": "212 King St W, Toronto, ON M5H 1K5, Canada",
+          "displayAddress": "Meet at northwest corner of King &amp; Simcoe, Toronto, ON",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "3fb2f07a-9c79-40bb-9ae4-4ff18bc23355",
+          "type": "marker",
+          "$$hashKey": "object:31160",
+          "coords": { "lng": -79.3861730951065, "lat": 43.647442315801094 }
+        }
+      ],
+      "partnerType": "none",
+      "category": [
+        { "name": "History" },
+        { "name": "Tour" },
+        { "name": "Walking" }
+      ],
+      "eventWebsite": "https://www.toronto.ca/explore-enjoy/festivals-events/doors-open-toronto/",
+      "recId": "Fu0uXDriV6gbcXIIsq6TWQ",
+      "startDate": "2025-05-24T04:00:00.000Z"
+    }
+  },
+  {
+    "calEvent": {
+      "categoryString": "Seminars/Workshops",
+      "accessibility": "full",
+      "endDate": "2025-06-26T04:00:00.000Z",
+      "admin": {
+        "reviewerComments": "Sajeetha C. 05/07/2025 Approved. Edited description, cropped image.",
+        "newsletterCategory": [],
+        "updatedBy": "schandr2",
+        "subsetCalendar": [],
+        "approvedTimestamp": "2025-05-07T14:47:17.343Z",
+        "includeInNewsletter": false,
+        "featuredEvent": "false",
+        "approvedBy": "schandr2",
+        "newsletterSubcategory": [],
+        "updateTimestamp": "2025-05-07T14:47:17.343Z"
+      },
+      "description": "Join us for an unforgettable evening of connections and conversations. This is your chance to mix and mingle with startups, entrepreneurs, and innovators from across industries in a relaxed, inspiring atmosphere. We are officially part of Toronto Tech Week 2025, a weeklong citywide collection of events to connect and celebrate the builders. June 23 to June 27, 2025.&#10;&#10;Whether you&#8217;re looking to spark new collaborations, grow your network, or simply unwind with like-minded peers, this event offers the perfect setting to connect over good food, great wine, and meaningful conversation.",
+      "orgAddress": "907 Alness Street",
+      "frequency": "once",
+      "features": {
+        "Paid Parking": true,
+        "Onsite Food and Beverages": true,
+        "Bike Racks": true
+      },
+      "orgType": "Non-Profit",
+      "thumbImage": {
+        "fileName": "Capture_th.png",
+        "binId": "rO_1KxbJL7YBTXxOtrUFAQ",
+        "fileSize": 22464,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Capture_th_rO_1KxbJL7YBTXxOtrUFAQ.png"
+      },
+      "terms": "agree",
+      "eventEmail": "info@yedi.ca",
+      "eventName": "The Sunset Social",
+      "reservation": {
+        "website": "https://www.eventbrite.ca/e/the-sunset-social-tickets-1353409998739?aff=oddtdtcreator",
+        "email": "info@yedi.ca"
+      },
+      "theme": [{ "name": "" }],
+      "themeString": "",
+      "expectedAvg": 100,
+      "subsetCalendarString": "",
+      "admissionType": "GA",
+      "image": {
+        "fileName": "Capture.PNG",
+        "altText": "Two arms holding martini glasses while clinking them to each other with a pale purple background.",
+        "binId": "lZ7mgWBuia7ieWWw65CFVA",
+        "fileSize": 263824,
+        "fileType": "image/png",
+        "url": "/webapps/CC/fileAPI/edc_eventcal/Capture_lZ7mgWBuia7ieWWw65CFVA.PNG"
+      },
+      "cost": { "ga": 50 },
+      "orgName": "YEDI",
+      "contactName": "Tanya Hayles",
+      "dates": [
+        {
+          "startDateTime": "2025-06-26T23:00:00.000Z",
+          "endDateTime": "2025-06-27T01:00:00.000Z"
+        }
+      ],
+      "endDateTime": "2025-06-27T01:00:00.000Z",
+      "isWidgetEvent": false,
+      "orgPhone": "6478037746",
+      "freeEvent": "No",
+      "startDateTime": "2025-06-26T23:00:00.000Z",
+      "reservationsRequired": "Yes",
+      "orgEmail": "thayles@yedi.ca",
+      "locations": [
+        {
+          "locationName": "Arta Gallery",
+          "address": "14 Distillery Lane, Toronto, ON M5A 3C4, Canada",
+          "locationType": [{ "type": "marker" }],
+          "geoCoded": true,
+          "id": "6aaf6af7-4945-9be7-d1da-a2c79a6ee114",
+          "type": "marker",
+          "$$hashKey": "object:15293",
+          "coords": { "lng": -79.36137889999999, "lat": 43.6498601 }
+        }
+      ],
+      "partnerType": "none",
+      "category": [{ "name": "Seminars/Workshops" }],
+      "eventWebsite": "https://www.eventbrite.ca/e/the-sunset-social-tickets-1353409998739?aff=oddtdtcreator",
+      "recId": "PL8p4NsKm2gCzMU7CSo3Lw",
+      "startDate": "2025-06-26T04:00:00.000Z"
+    }
+  }
+]
