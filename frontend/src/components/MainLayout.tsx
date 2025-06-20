@@ -9,10 +9,12 @@ import {
   Badge,
   Tabs,
   Tab,
+  Paper,
+  Button,
   Alert,
   Snackbar,
 } from '@mui/material';
-import { Favorite, Event as EventIcon } from '@mui/icons-material';
+import { Favorite, Event as EventIcon, ExploreOutlined } from '@mui/icons-material';
 import { eventService, Event, EventFilters } from '../services/api';
 import { useFavorites } from '../hooks/useFavorites';
 import { FilterBar } from './FilterBar';
@@ -40,6 +42,166 @@ function TabPanel(props: TabPanelProps) {
     </div>
   );
 }
+
+const WelcomeSection: React.FC = () => {
+  return (
+    <Paper 
+      elevation={0} 
+      sx={{ 
+        mb: 4, 
+        background: 'linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)',
+        color: 'white',
+        overflow: 'hidden',
+        position: 'relative'
+      }}
+    >
+      <Box sx={{ 
+        display: 'flex', 
+        flexDirection: { xs: 'column', md: 'row' },
+        minHeight: { xs: 'auto', md: '400px' },
+        alignItems: 'center'
+      }}>
+        {/* Image Section */}
+        <Box sx={{ 
+          flex: { xs: '0 0 auto', md: '0 0 45%' },
+          width: { xs: '100%', md: '45%' },
+          height: { xs: '250px', md: '400px' },
+          position: 'relative',
+          overflow: 'hidden'
+        }}>
+          <Box
+            component="img"
+            src="https://images.unsplash.com/photo-1517935706615-2717063c2225?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+            alt="Toronto skyline"
+            sx={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              filter: 'brightness(0.8)',
+            }}
+          />
+          <Box sx={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            background: 'linear-gradient(45deg, rgba(30,60,114,0.3) 0%, rgba(42,82,152,0.1) 100%)'
+          }} />
+        </Box>
+
+        {/* Content Section */}
+        <Box sx={{ 
+          flex: 1,
+          p: { xs: 3, md: 4 },
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          position: 'relative',
+          zIndex: 2
+        }}>
+          <Typography 
+            variant="h3" 
+            component="h2" 
+            sx={{ 
+              fontWeight: 700,
+              mb: 3,
+              fontSize: { xs: '2rem', md: '2.5rem' },
+              lineHeight: 1.2,
+              textShadow: '0 2px 4px rgba(0,0,0,0.3)'
+            }}
+          >
+            When in Toronto, do as Torontonians do!
+          </Typography>
+          
+          <Typography 
+            variant="h6" 
+            sx={{ 
+              mb: 4,
+              lineHeight: 1.6,
+              opacity: 0.95,
+              fontSize: { xs: '1.1rem', md: '1.25rem' },
+              fontWeight: 400
+            }}
+          >
+            Find your vibe here with us, your official concierge to the Toronto region, 
+            spanning the Greater Toronto Area. Let the city's good vibes, 
+            year-round festivals, food, music, art, and history feed your bucket list 
+            FOMO—plan your visit and discover how the Six moves!
+          </Typography>
+
+          <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
+            <Button
+              variant="contained"
+              size="large"
+              startIcon={<ExploreOutlined />}
+              sx={{
+                bgcolor: 'rgba(255,255,255,0.2)',
+                backdropFilter: 'blur(10px)',
+                border: '1px solid rgba(255,255,255,0.3)',
+                color: 'white',
+                fontWeight: 600,
+                px: 3,
+                py: 1.5,
+                '&:hover': {
+                  bgcolor: 'rgba(255,255,255,0.3)',
+                  transform: 'translateY(-2px)',
+                  boxShadow: '0 8px 25px rgba(0,0,0,0.3)'
+                },
+                transition: 'all 0.3s ease'
+              }}
+            >
+              Explore Events
+            </Button>
+            
+            <Button
+              variant="outlined"
+              size="large"
+              sx={{
+                borderColor: 'rgba(255,255,255,0.5)',
+                color: 'white',
+                fontWeight: 600,
+                px: 3,
+                py: 1.5,
+                '&:hover': {
+                  borderColor: 'white',
+                  bgcolor: 'rgba(255,255,255,0.1)',
+                  transform: 'translateY(-2px)'
+                },
+                transition: 'all 0.3s ease'
+              }}
+            >
+              Plan Your Visit
+            </Button>
+          </Box>
+        </Box>
+      </Box>
+
+      {/* Decorative Elements */}
+      <Box sx={{
+        position: 'absolute',
+        top: '-50px',
+        right: '-50px',
+        width: '200px',
+        height: '200px',
+        borderRadius: '50%',
+        background: 'radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%)',
+        pointerEvents: 'none'
+      }} />
+      
+      <Box sx={{
+        position: 'absolute',
+        bottom: '-30px',
+        left: '-30px',
+        width: '150px',
+        height: '150px',
+        borderRadius: '50%',
+        background: 'radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%)',
+        pointerEvents: 'none'
+      }} />
+    </Paper>
+  );
+};
 
 export const MainLayout: React.FC = () => {
   const [events, setEvents] = useState<Event[]>([]);
@@ -146,6 +308,7 @@ export const MainLayout: React.FC = () => {
 
       <Container maxWidth="xl" sx={{ py: 3 }}>
         {/* Navigation Tabs */}
+        <WelcomeSection />
         <Box sx={{ borderBottom: 1, borderColor: 'divider', mb: 3 }}>
           <Tabs value={tabValue} onChange={handleTabChange} aria-label="event tabs">
             <Tab 
