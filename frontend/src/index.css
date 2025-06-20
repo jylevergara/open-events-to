@@ -1,3 +1,5 @@
+@import 'leaflet/dist/leaflet.css';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,23 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Custom styles for map markers */
+.custom-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Ensure map containers have proper styling */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Fix for marker icons */
+.leaflet-marker-icon {
+  margin-left: -12px !important;
+  margin-top: -25px !important;
 }

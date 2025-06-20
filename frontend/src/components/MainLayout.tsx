@@ -21,6 +21,7 @@ import { FilterBar } from './FilterBar';
 import { ViewToggle, ViewMode } from './ViewToggle';
 import { EventList } from './EventList';
 import { CalendarExport } from './CalendarExport';
+import { EventMap } from './EventMap';
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -395,7 +396,7 @@ export const MainLayout: React.FC = () => {
               </Box>
             </Box>
 
-            {/* Favorite Events List */}
+            {/* Favorite Events Content */}
             {favoriteEvents.length === 0 ? (
               <Box sx={{ textAlign: 'center', py: 8 }}>
                 <Favorite sx={{ fontSize: 64, color: 'text.disabled', mb: 2 }} />
@@ -407,7 +408,31 @@ export const MainLayout: React.FC = () => {
                 </Typography>
               </Box>
             ) : (
-              <EventList events={favoriteEvents} viewMode={viewMode} />
+              <Box sx={{ 
+                display: 'flex', 
+                gap: 3, 
+                height: '800px',
+                flexDirection: { xs: 'column', lg: 'row' }
+              }}>
+                {/* Events Column */}
+                <Box sx={{ 
+                  flex: { xs: 1, lg: '0 0 50%' },
+                  height: { xs: '400px', lg: '100%' },
+                  overflow: 'auto',
+                  pr: { lg: 2 }
+                }}>
+                  <EventList events={favoriteEvents} viewMode="list" />
+                </Box>
+                
+                {/* Map Column */}
+                <Box sx={{ 
+                  flex: { xs: 1, lg: '0 0 50%' },
+                  height: { xs: '400px', lg: '100%' },
+                  pl: { lg: 2 }
+                }}>
+                  <EventMap events={favoriteEvents} />
+                </Box>
+              </Box>
             )}
           </Stack>
         </TabPanel>

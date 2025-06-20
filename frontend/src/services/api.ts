@@ -21,6 +21,11 @@ export interface Event {
   Admission: string;
   LongDesc: string | string[];
   Website?: string;
+  Address?: string;
+  coordinates?: {
+    lat: number;
+    lng: number;
+  };
 }
 
 export interface EventFilters {

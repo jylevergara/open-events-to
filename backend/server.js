@@ -24,9 +24,19 @@ function transformEventData(eventWrapper, index) {
   // Extract location information
   let address = '';
   let area = '';
+  let coordinates = null;
   if (event.locations && event.locations.length > 0) {
-    address = event.locations[0].address || '';
-    area = event.locations[0].locationName || '';
+    const location = event.locations[0];
+    address = location.address || '';
+    area = location.locationName || '';
+    
+    // Extract coordinates from the first location if available
+    if (location.coords && location.coords.lat && location.coords.lng) {
+      coordinates = {
+        lat: parseFloat(location.coords.lat),
+        lng: parseFloat(location.coords.lng)
+      };
+    }
   }
   
   // Extract category information
@@ -70,6 +80,7 @@ function transformEventData(eventWrapper, index) {
     Area: area,
     CategoryList: categoryList,
     Address: address,
+    coordinates: coordinates,
     Phone: event.eventPhone || event.orgPhone || '',
     Email: event.eventEmail || event.orgEmail || '',
     Website: event.eventWebsite || '',
