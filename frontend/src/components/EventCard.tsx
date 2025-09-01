@@ -18,7 +18,6 @@ import {
   Schedule,
   AttachMoney,
   ExpandMore,
-  Comment,
 } from '@mui/icons-material';
 import { Event } from '../services/api';
 import { FavoriteButton } from './FavoriteButton';
@@ -41,11 +40,6 @@ export const EventCard: React.FC<EventCardProps> = ({
   const handleExpandClick = (e: React.MouseEvent) => {
     e.stopPropagation();
     setExpanded(!expanded);
-  };
-
-  const handleCommentsClick = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    setShowComments(!showComments);
   };
 
   const handleCardClick = () => {
