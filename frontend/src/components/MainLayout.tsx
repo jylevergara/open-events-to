@@ -6,7 +6,6 @@ import {
   Container,
   Box,
   Stack,
-  Badge,
   Tabs,
   Tab,
   Paper,
@@ -125,7 +124,8 @@ const WelcomeSection: React.FC = () => {
               fontWeight: 400
             }}
           >
-            Looking for what’s happening in the Six? You’ve come to the right place. From street festivals to secret shows, food markets to museum nights — we’ve got your next plan covered. Whether you're local or just visiting, explore the best events across Toronto and the GTA. Let’s get you out there!
+            Looking for what’s happening in the Six? You’ve come to the right place. 
+            Whether you're local or just visiting, explore the best events across Toronto and the GTA. Let’s get you out there!
           </Typography>
 
           <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
