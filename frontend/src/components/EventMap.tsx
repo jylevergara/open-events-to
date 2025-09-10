@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo } from 'react';
+import React, { useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import { Box, Typography, Chip, Stack } from '@mui/material';
 import { LocationOn, Schedule, AttachMoney } from '@mui/icons-material';
