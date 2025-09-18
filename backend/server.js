@@ -130,7 +130,7 @@ function loadFallbackEvents() {
 
 // Fetch events from Toronto Open Data JSON API
 function fetchEventsFromAPI() {
-  const url = 'https://secure.toronto.ca/cc_sr_v1/data/edc_eventcal_APR?limit=500'
+  const url = process.env.EVENTS_URL;
   
   console.log('Fetching events from Toronto Open Data API...');
   
