@@ -18,6 +18,7 @@ import {
   Schedule,
   AttachMoney,
   ExpandMore,
+  Comment,
 } from '@mui/icons-material';
 import { Event } from '../services/api';
 import { FavoriteButton } from './FavoriteButton';
@@ -236,6 +237,17 @@ export const EventCard: React.FC<EventCardProps> = ({
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
             <FavoriteButton eventId={event.id} />
             <CalendarExportButton event={event} size="small" />
+            <IconButton
+              onClick={(e) => {
+                e.stopPropagation();
+                setShowComments(!showComments);
+              }}
+              color={showComments ? 'primary' : 'default'}
+              size="small"
+              aria-label="toggle comments"
+            >
+              <Comment />
+            </IconButton>
           </Box>
 
           {getDescription() && (
