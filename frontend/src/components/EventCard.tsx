@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import {
   Card,
   CardMedia,
@@ -12,27 +12,26 @@ import {
   IconButton,
   Collapse,
   Divider,
-} from '@mui/material';
+} from "@mui/material";
 import {
   LocationOn,
   Schedule,
   AttachMoney,
   ExpandMore,
-  Comment,
-} from '@mui/icons-material';
-import { Event } from '../services/api';
-import { FavoriteButton } from './FavoriteButton';
-import { CommentSection } from './CommentSection';
-import { CalendarExportButton } from './CalendarExportButton';
+} from "@mui/icons-material";
+import { Event } from "../services/api";
+import { FavoriteButton } from "./FavoriteButton";
+import { CommentSection } from "./CommentSection";
+import { CalendarExportButton } from "./CalendarExportButton";
 
 interface EventCardProps {
   event: Event;
-  viewMode?: 'grid' | 'list';
+  viewMode?: "grid" | "list";
 }
 
-export const EventCard: React.FC<EventCardProps> = ({ 
-  event, 
-  viewMode = 'grid' 
+export const EventCard: React.FC<EventCardProps> = ({
+  event,
+  viewMode = "grid",
 }) => {
   const navigate = useNavigate();
   const [expanded, setExpanded] = useState(false);
@@ -49,11 +48,11 @@ export const EventCard: React.FC<EventCardProps> = ({
 
   const formatDate = (dateStr: string) => {
     try {
-      return new Date(dateStr).toLocaleDateString('en-US', {
-        weekday: 'short',
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
+      return new Date(dateStr).toLocaleDateString("en-US", {
+        weekday: "short",
+        year: "numeric",
+        month: "short",
+        day: "numeric",
       });
     } catch {
       return dateStr;
@@ -69,24 +68,24 @@ export const EventCard: React.FC<EventCardProps> = ({
 
   const getDescription = () => {
     if (Array.isArray(event.LongDesc)) {
-      return event.LongDesc.join(' ');
+      return event.LongDesc.join(" ");
     }
-    return event.LongDesc || '';
+    return event.LongDesc || "";
   };
 
-  const isListView = viewMode === 'list';
+  const isListView = viewMode === "list";
 
   return (
     <Card
       onClick={handleCardClick}
       sx={{
-        height: isListView ? 'auto' : '100%',
-        display: 'flex',
-        flexDirection: isListView ? 'row' : 'column',
-        transition: 'all 0.3s ease-in-out',
-        cursor: 'pointer',
-        '&:hover': {
-          transform: 'translateY(-2px)',
+        height: isListView ? "auto" : "100%",
+        display: "flex",
+        flexDirection: isListView ? "row" : "column",
+        transition: "all 0.3s ease-in-out",
+        cursor: "pointer",
+        "&:hover": {
+          transform: "translateY(-2px)",
           boxShadow: 3,
         },
       }}
@@ -97,9 +96,9 @@ export const EventCard: React.FC<EventCardProps> = ({
           component="img"
           sx={{
             height: isListView ? 120 : 200,
-            width: isListView ? 200 : '100%',
-            objectFit: 'cover',
-            backgroundColor: 'grey.100',
+            width: isListView ? 200 : "100%",
+            objectFit: "cover",
+            backgroundColor: "grey.100",
           }}
           image={event.Image}
           alt={event.ImageAlt || event.EventName}
@@ -110,10 +109,11 @@ export const EventCard: React.FC<EventCardProps> = ({
               img.src = event.ThumbImage;
             } else {
               // Hide the broken image and show placeholder instead
-              img.style.display = 'none';
-              const placeholder = img.parentElement?.nextElementSibling as HTMLElement;
+              img.style.display = "none";
+              const placeholder = img.parentElement
+                ?.nextElementSibling as HTMLElement;
               if (placeholder) {
-                placeholder.style.display = 'flex';
+                placeholder.style.display = "flex";
               }
             }
           }}
@@ -123,19 +123,20 @@ export const EventCard: React.FC<EventCardProps> = ({
           component="img"
           sx={{
             height: isListView ? 120 : 200,
-            width: isListView ? 200 : '100%',
-            objectFit: 'cover',
-            backgroundColor: 'grey.100',
+            width: isListView ? 200 : "100%",
+            objectFit: "cover",
+            backgroundColor: "grey.100",
           }}
           image={event.ThumbImage}
           alt={event.ImageAlt || event.EventName}
           onError={(e) => {
             // Hide the broken image and show placeholder instead
             const img = e.target as HTMLImageElement;
-            img.style.display = 'none';
-            const placeholder = img.parentElement?.nextElementSibling as HTMLElement;
+            img.style.display = "none";
+            const placeholder = img.parentElement
+              ?.nextElementSibling as HTMLElement;
             if (placeholder) {
-              placeholder.style.display = 'flex';
+              placeholder.style.display = "flex";
             }
           }}
         />
@@ -145,12 +146,12 @@ export const EventCard: React.FC<EventCardProps> = ({
       <Box
         sx={{
           height: isListView ? 120 : 200,
-          width: isListView ? 200 : '100%',
-          backgroundColor: 'grey.300',
-          display: (!event.Image && !event.ThumbImage) ? 'flex' : 'none',
-          alignItems: 'center',
-          justifyContent: 'center',
-          flexDirection: 'column',
+          width: isListView ? 200 : "100%",
+          backgroundColor: "grey.300",
+          display: !event.Image && !event.ThumbImage ? "flex" : "none",
+          alignItems: "center",
+          justifyContent: "center",
+          flexDirection: "column",
         }}
       >
         <Typography
@@ -158,14 +159,14 @@ export const EventCard: React.FC<EventCardProps> = ({
           color="text.secondary"
           sx={{
             fontWeight: 500,
-            textAlign: 'center',
+            textAlign: "center",
           }}
         >
           No Image Found
         </Typography>
       </Box>
 
-      <Box sx={{ display: 'flex', flexDirection: 'column', flex: 1 }}>
+      <Box sx={{ display: "flex", flexDirection: "column", flex: 1 }}>
         <CardContent sx={{ flex: 1, pb: 1 }}>
           {/* Event Title */}
           <Typography variant="h6" component="h2" gutterBottom>
@@ -175,15 +176,17 @@ export const EventCard: React.FC<EventCardProps> = ({
           {/* Categories */}
           {getCategories().length > 0 && (
             <Stack direction="row" spacing={1} sx={{ mb: 2 }} flexWrap="wrap">
-              {getCategories().slice(0, 3).map((category, index) => (
-                <Chip
-                  key={index}
-                  label={category}
-                  size="small"
-                  color="primary"
-                  variant="outlined"
-                />
-              ))}
+              {getCategories()
+                .slice(0, 3)
+                .map((category, index) => (
+                  <Chip
+                    key={index}
+                    label={category}
+                    size="small"
+                    color="primary"
+                    variant="outlined"
+                  />
+                ))}
               {getCategories().length > 3 && (
                 <Chip
                   label={`+${getCategories().length - 3} more`}
@@ -197,7 +200,7 @@ export const EventCard: React.FC<EventCardProps> = ({
           {/* Event Details */}
           <Stack spacing={1}>
             {event.Area && (
-              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+              <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
                 <LocationOn fontSize="small" color="action" />
                 <Typography variant="body2" color="text.secondary">
                   {event.Area}
@@ -206,7 +209,7 @@ export const EventCard: React.FC<EventCardProps> = ({
             )}
 
             {event.DateBeginShow && (
-              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+              <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
                 <Schedule fontSize="small" color="action" />
                 <Typography variant="body2" color="text.secondary">
                   {formatDate(event.DateBeginShow)}
@@ -216,7 +219,7 @@ export const EventCard: React.FC<EventCardProps> = ({
             )}
 
             {event.Admission && (
-              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+              <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
                 <AttachMoney fontSize="small" color="action" />
                 <Typography variant="body2" color="text.secondary">
                   {event.Admission}
@@ -233,29 +236,18 @@ export const EventCard: React.FC<EventCardProps> = ({
           )}
         </CardContent>
 
-        <CardActions sx={{ justifyContent: 'space-between', px: 2, pb: 2 }}>
-          <Box sx={{ display: 'flex', alignItems: 'center' }}>
+        <CardActions sx={{ justifyContent: "space-between", px: 2, pb: 2 }}>
+          <Box sx={{ display: "flex", alignItems: "center" }}>
             <FavoriteButton eventId={event.id} />
             <CalendarExportButton event={event} size="small" />
-            <IconButton
-              onClick={(e) => {
-                e.stopPropagation();
-                setShowComments(!showComments);
-              }}
-              color={showComments ? 'primary' : 'default'}
-              size="small"
-              aria-label="toggle comments"
-            >
-              <Comment />
-            </IconButton>
           </Box>
 
           {getDescription() && (
             <IconButton
               onClick={handleExpandClick}
               sx={{
-                transform: expanded ? 'rotate(180deg)' : 'rotate(0deg)',
-                transition: 'transform 0.3s',
+                transform: expanded ? "rotate(180deg)" : "rotate(0deg)",
+                transition: "transform 0.3s",
               }}
             >
               <ExpandMore />
