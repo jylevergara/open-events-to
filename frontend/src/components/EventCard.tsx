@@ -18,7 +18,6 @@ import {
   Schedule,
   AttachMoney,
   ExpandMore,
-  ChatBubbleOutline,
 } from "@mui/icons-material";
 import { Event } from "../services/api";
 import { FavoriteButton } from "./FavoriteButton";
@@ -241,17 +240,6 @@ export const EventCard: React.FC<EventCardProps> = ({
           <Box sx={{ display: "flex", alignItems: "center" }}>
             <FavoriteButton eventId={event.id} />
             <CalendarExportButton event={event} size="small" />
-            <IconButton
-              onClick={(e) => {
-                e.stopPropagation();
-                setShowComments(!showComments);
-              }}
-              size="small"
-              color={showComments ? "primary" : "default"}
-              aria-label="toggle comments"
-            >
-              <ChatBubbleOutline />
-            </IconButton>
           </Box>
 
           {getDescription() && (
