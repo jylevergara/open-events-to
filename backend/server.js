@@ -383,10 +383,26 @@ app.get('/api/health', (req, res) => {
   });
 });
 
-// Fetch events from API on startup
-fetchEventsFromAPI();
+// Fetch events from API on startup (only in non-serverless environment)
+if (process.env.NODE_ENV !== 'production') {
+  fetchEventsFromAPI();
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+    console.log(`Health check: http://localhost:${PORT}/api/health`);
+  });
+}
 
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-  console.log(`Health check: http://localhost:${PORT}/api/health`);
+// Initialize events on first request in serverless environment
+let eventsInitialized = false;
+app.use((req, res, next) => {
+  if (!eventsInitialized && process.env.NODE_ENV === 'production') {
+    if (events.length === 0) {
+      loadFallbackEvents();
+    }
+    eventsInitialized = true;
+  }
+  next();
 });
+
+// Export the Express app for Vercel serverless functions
+module.exports = app;
