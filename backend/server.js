@@ -4,6 +4,7 @@ const https = require('https');
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+ require('dotenv').config({ path: '../.env' });
 
 const app = express();
 const PORT = process.env.PORT || 3001;
