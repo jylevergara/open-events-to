@@ -384,9 +384,10 @@ app.get('/api/health', (req, res) => {
   });
 });
 
+fetchEventsFromAPI();
+
 // Fetch events from API on startup (only in non-serverless environment)
 if (process.env.NODE_ENV !== 'production') {
-  fetchEventsFromAPI();
   app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
     console.log(`Health check: http://localhost:${PORT}/api/health`);
