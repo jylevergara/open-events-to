@@ -137,10 +137,12 @@ function fetchEventsFromAPI() {
   console.log('Fetching events from Toronto Open Data API...');
   
   const request = https.get(url, (response) => {
+    console.log('✓ Response received, status:', response.statusCode);
     let data = '';
     
     response.on('data', (chunk) => {
       data += chunk;
+      console.log(`📦 Received ${data.length} bytes`);
     });
     
     response.on('end', () => {
