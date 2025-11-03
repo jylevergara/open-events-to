@@ -132,6 +132,7 @@ function loadFallbackEvents() {
 // Fetch events from Toronto Open Data JSON API
 function fetchEventsFromAPI() {
   const url = process.env.EVENTS_URL;
+  console.log('url', url);
   
   console.log('Fetching events from Toronto Open Data API...');
   
