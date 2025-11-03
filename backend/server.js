@@ -4,10 +4,10 @@ const https = require('https');
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
- require('dotenv').config({ path: '../.env' });
-
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001; 
+require('dotenv').config({ path: '../.env' });
+
 
 // Middleware
 app.use(cors());
@@ -384,27 +384,38 @@ app.get('/api/health', (req, res) => {
   });
 });
 
-fetchEventsFromAPI();
+// Initialize events on first request in serverless environment
+let eventsInitialized = false;
+const initializeEvents = () => {
+  if (!eventsInitialized) {
+    console.log('Initializing events...');
+    if (events.length === 0) {
+      // Try to fetch from API, fallback to local data if it fails
+      if (process.env.EVENTS_URL) {
+        fetchEventsFromAPI();
+      } else {
+        console.log('No EVENTS_URL found, loading fallback data');
+        loadFallbackEvents();
+      }
+    }
+    eventsInitialized = true;
+  }
+};
+
+// Middleware to ensure events are initialized before handling requests
+app.use((req, res, next) => {
+  initializeEvents();
+  next();
+});
 
 // Fetch events from API on startup (only in non-serverless environment)
 if (process.env.NODE_ENV !== 'production') {
+  initializeEvents();
   app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
     console.log(`Health check: http://localhost:${PORT}/api/health`);
   });
 }
-
-// Initialize events on first request in serverless environment
-let eventsInitialized = false;
-app.use((req, res, next) => {
-  if (!eventsInitialized && process.env.NODE_ENV === 'production') {
-    if (events.length === 0) {
-      loadFallbackEvents();
-    }
-    eventsInitialized = true;
-  }
-  next();
-});
 
 // Export the Express app for Vercel serverless functions
 module.exports = app;
