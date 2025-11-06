@@ -1,13 +1,12 @@
-const express = require('express');
-const cors = require('cors');
-const https = require('https');
-const http = require('http');
-const fs = require('fs');
-const path = require('path');
+const express = require("express");
+const cors = require("cors");
+const https = require("https");
+const http = require("http");
+const fs = require("fs");
+const path = require("path");
 const app = express();
-const PORT = process.env.PORT || 3001; 
-require('dotenv').config({ path: '../.env' });
-
+const PORT = process.env.PORT || 3001;
+require("dotenv").config({ path: "../.env" });
 
 // Middleware
 app.use(cors());
@@ -21,246 +20,278 @@ let isUsingFallback = false;
 // Transform event data to consistent format
 function transformEventData(eventWrapper, index) {
   const event = eventWrapper.calEvent || eventWrapper;
-  
+
   // Extract location information
-  let address = '';
-  let area = '';
+  let address = "";
+  let area = "";
   let coordinates = null;
   if (event.locations && event.locations.length > 0) {
     const location = event.locations[0];
-    address = location.address || '';
-    area = location.locationName || '';
-    
+    address = location.address || "";
+    area = location.locationName || "";
+
     // Extract coordinates from the first location if available
     if (location.coords && location.coords.lat && location.coords.lng) {
       coordinates = {
         lat: parseFloat(location.coords.lat),
-        lng: parseFloat(location.coords.lng)
+        lng: parseFloat(location.coords.lng),
       };
     }
   }
-  
+
   // Extract category information
-  let categoryList = '';
+  let categoryList = "";
   if (event.category && Array.isArray(event.category)) {
-    categoryList = event.category.map(cat => cat.name).join(', ');
+    categoryList = event.category.map((cat) => cat.name).join(", ");
   } else if (event.categoryString) {
     categoryList = event.categoryString;
   }
-  
+
   // Extract cost information
-  let cost = 'Free';
-  if (event.freeEvent === 'No' && event.cost) {
-    if (typeof event.cost === 'object') {
+  let cost = "Free";
+  if (event.freeEvent === "No" && event.cost) {
+    if (typeof event.cost === "object") {
       if (event.cost.ga) cost = `$${event.cost.ga}`;
       else if (event.cost.adult) cost = `$${event.cost.adult}`;
-      else if (event.cost.from && event.cost.to) cost = `$${event.cost.from} - $${event.cost.to}`;
-      else cost = 'Paid';
+      else if (event.cost.from && event.cost.to)
+        cost = `$${event.cost.from} - $${event.cost.to}`;
+      else cost = "Paid";
     } else {
       cost = event.cost;
     }
   }
-  
+
   // Extract image information
-  let imageUrl = '';
-  let thumbImageUrl = '';
-  
+  let imageUrl = "";
+  let thumbImageUrl = "";
+
   if (event.image && event.image.url) {
     // Construct full URL for main image
-    imageUrl = event.image.url.startsWith('http') 
-      ? event.image.url 
+    imageUrl = event.image.url.startsWith("http")
+      ? event.image.url
       : `https://secure.toronto.ca${event.image.url}`;
   }
-  
+
   if (event.thumbImage && event.thumbImage.url) {
     // Construct full URL for thumbnail image
-    thumbImageUrl = event.thumbImage.url.startsWith('http') 
-      ? event.thumbImage.url 
+    thumbImageUrl = event.thumbImage.url.startsWith("http")
+      ? event.thumbImage.url
       : `https://secure.toronto.ca${event.thumbImage.url}`;
   }
-  
+
   // Extract dates
-  let startDate = '';
-  let endDate = '';
+  let startDate = "";
+  let endDate = "";
   if (event.dates && event.dates.length > 0) {
-    startDate = event.dates[0].startDateTime || event.startDateTime || event.startDate;
+    startDate =
+      event.dates[0].startDateTime || event.startDateTime || event.startDate;
     endDate = event.dates[0].endDateTime || event.endDateTime || event.endDate;
   } else {
     startDate = event.startDateTime || event.startDate;
     endDate = event.endDateTime || event.endDate;
   }
-  
+
   return {
     id: index + 1,
-    EventName: event.eventName || '',
-    Description: event.description || '',
+    EventName: event.eventName || "",
+    Description: event.description || "",
     DateBeginShow: startDate,
     DateEndShow: endDate,
     Area: area,
     CategoryList: categoryList,
     Address: address,
     coordinates: coordinates,
-    Phone: event.eventPhone || event.orgPhone || '',
-    Email: event.eventEmail || event.orgEmail || '',
-    Website: event.eventWebsite || '',
+    Phone: event.eventPhone || event.orgPhone || "",
+    Email: event.eventEmail || event.orgEmail || "",
+    Website: event.eventWebsite || "",
     Cost: cost,
     Image: imageUrl,
     ThumbImage: thumbImageUrl,
-    ImageAlt: event.image ? event.image.altText || '' : '',
-    originalEvent: event // Keep original data for reference
+    ImageAlt: event.image ? event.image.altText || "" : "",
+    originalEvent: event, // Keep original data for reference
   };
 }
 
 // Load events from local fallback file
 function loadFallbackEvents() {
   try {
-    const fallbackPath = path.join(__dirname, 'event-data.json');
-    const fallbackData = fs.readFileSync(fallbackPath, 'utf8');
+    const fallbackPath = path.join(__dirname, "event-data.json");
+    const fallbackData = fs.readFileSync(fallbackPath, "utf8");
     const jsonData = JSON.parse(fallbackData);
-    
+
     events = jsonData.map(transformEventData);
     isUsingFallback = true;
     lastFetchTime = new Date();
-    
-    console.log(`Loaded ${events.length} events from fallback file (event-data.json)`);
+
+    console.log(
+      `Loaded ${events.length} events from fallback file (event-data.json)`
+    );
   } catch (error) {
-    console.error('Error loading fallback events:', error);
+    console.error("Error loading fallback events:", error);
     events = [];
   }
 }
 
 // Fetch events from Toronto Open Data JSON API
 function fetchEventsFromAPI() {
-  const url = process.env.EVENTS_URL;
-  console.log('url', url);
-  
-  console.log('Fetching events from Toronto Open Data API...');
-  
-  const request = https.get(url, (response) => {
-    console.log('✓ Response received, status:', response.statusCode);
-    let data = '';
-    
-    response.on('data', (chunk) => {
-      data += chunk;
-      console.log(`📦 Received ${data.length} bytes`);
+  return new Promise((resolve, reject) => {
+    const url = process.env.EVENTS_URL;
+    console.log("url", url);
+
+    console.log("Fetching events from Toronto Open Data API...");
+
+    const request = https.get(url, (response) => {
+      console.log("✓ Response received, status:", response.statusCode);
+      let data = "";
+
+      response.on("data", (chunk) => {
+        data += chunk;
+        console.log(`📦 Received ${data.length} bytes`);
+      });
+
+      response.on("end", () => {
+        try {
+          const jsonData = JSON.parse(data);
+
+          // Transform the JSON data to match the expected structure
+          events = jsonData.map(transformEventData);
+          isUsingFallback = false;
+          lastFetchTime = new Date();
+
+          console.log(
+            `Successfully loaded ${events.length} events from Toronto Open Data API`
+          );
+          resolve();
+        } catch (error) {
+          console.error("Error parsing JSON data from API:", error);
+          console.log("Falling back to local event data...");
+          loadFallbackEvents();
+          resolve(); // Resolve even on error since we have fallback
+        }
+      });
     });
-    
-    response.on('end', () => {
-      try {
-        const jsonData = JSON.parse(data);
-        
-        // Transform the JSON data to match the expected structure
-        events = jsonData.map(transformEventData);
-        isUsingFallback = false;
-        lastFetchTime = new Date();
-        
-        console.log(`Successfully loaded ${events.length} events from Toronto Open Data API`);
-      } catch (error) {
-        console.error('Error parsing JSON data from API:', error);
-        console.log('Falling back to local event data...');
-        loadFallbackEvents();
-      }
+
+    request.on("error", (error) => {
+      console.error("Error fetching events from API:", error);
+      console.log("Falling back to local event data...");
+      loadFallbackEvents();
+      resolve(); // Resolve even on error since we have fallback
     });
-  });
-  
-  request.on('error', (error) => {
-    console.error('Error fetching events from API:', error);
-    console.log('Falling back to local event data...');
-    loadFallbackEvents();
-  });
-  
-  request.setTimeout(15000, () => {
-    console.error('Request timeout when fetching events from API');
-    request.destroy();
-    console.log('Falling back to local event data...');
-    loadFallbackEvents();
+
+    request.setTimeout(15000, () => {
+      console.error("Request timeout when fetching events from API");
+      request.destroy();
+      console.log("Falling back to local event data...");
+      loadFallbackEvents();
+      resolve(); // Resolve even on timeout since we have fallback
+    });
   });
 }
 
 // API Routes
 
 // Get all events
-app.get('/api/events', (req, res) => {
+app.get("/api/events", (req, res) => {
   const { category, area, search, dateFilter } = req.query;
   let filteredEvents = [...events];
-  
+
   // Filter by category
-  if (category && category !== 'all') {
-    filteredEvents = filteredEvents.filter(event => {
-      const categories = Array.isArray(event.CategoryList) 
-        ? event.CategoryList 
+  if (category && category !== "all") {
+    filteredEvents = filteredEvents.filter((event) => {
+      const categories = Array.isArray(event.CategoryList)
+        ? event.CategoryList
         : [event.CategoryList];
-      return categories.some(cat => 
-        cat && cat.toLowerCase().includes(category.toLowerCase())
+      return categories.some(
+        (cat) => cat && cat.toLowerCase().includes(category.toLowerCase())
       );
     });
   }
-  
+
   // Filter by area
-  if (area && area !== 'all') {
-    filteredEvents = filteredEvents.filter(event => 
-      event.Area && event.Area.toLowerCase().includes(area.toLowerCase())
+  if (area && area !== "all") {
+    filteredEvents = filteredEvents.filter(
+      (event) =>
+        event.Area && event.Area.toLowerCase().includes(area.toLowerCase())
     );
   }
-  
+
   // Filter by search term (enhanced search across multiple fields)
   if (search) {
     const searchLower = search.toLowerCase();
-    filteredEvents = filteredEvents.filter(event => {
+    filteredEvents = filteredEvents.filter((event) => {
       // Search in event name
-      if (event.EventName && event.EventName.toLowerCase().includes(searchLower)) {
+      if (
+        event.EventName &&
+        event.EventName.toLowerCase().includes(searchLower)
+      ) {
         return true;
       }
-      
+
       // Search in description
-      if (event.Description && event.Description.toLowerCase().includes(searchLower)) {
+      if (
+        event.Description &&
+        event.Description.toLowerCase().includes(searchLower)
+      ) {
         return true;
       }
-      
+
       // Search in categories
       if (event.CategoryList) {
-        const categories = Array.isArray(event.CategoryList) 
-          ? event.CategoryList 
+        const categories = Array.isArray(event.CategoryList)
+          ? event.CategoryList
           : [event.CategoryList];
-        if (categories.some(cat => cat && cat.toLowerCase().includes(searchLower))) {
+        if (
+          categories.some(
+            (cat) => cat && cat.toLowerCase().includes(searchLower)
+          )
+        ) {
           return true;
         }
       }
-      
+
       // Search in area
       if (event.Area && event.Area.toLowerCase().includes(searchLower)) {
         return true;
       }
-      
+
       // Search in organization name
-      if (event.originalEvent && event.originalEvent.orgName && 
-          event.originalEvent.orgName.toLowerCase().includes(searchLower)) {
+      if (
+        event.originalEvent &&
+        event.originalEvent.orgName &&
+        event.originalEvent.orgName.toLowerCase().includes(searchLower)
+      ) {
         return true;
       }
-      
+
       return false;
     });
   }
-  
+
   // Filter by date (simplified for hackathon)
   if (dateFilter) {
     const now = new Date();
     const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-    
-    filteredEvents = filteredEvents.filter(event => {
+
+    filteredEvents = filteredEvents.filter((event) => {
       if (!event.DateBeginShow) return true;
-      
+
       try {
         const eventDate = new Date(event.DateBeginShow);
-        
+
         switch (dateFilter) {
-          case 'today':
+          case "today":
             return eventDate.toDateString() === today.toDateString();
-          case 'week':
-            const weekFromNow = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);
+          case "week":
+            const weekFromNow = new Date(
+              today.getTime() + 7 * 24 * 60 * 60 * 1000
+            );
             return eventDate >= today && eventDate <= weekFromNow;
-          case 'month':
-            const monthFromNow = new Date(today.getFullYear(), today.getMonth() + 1, today.getDate());
+          case "month":
+            const monthFromNow = new Date(
+              today.getFullYear(),
+              today.getMonth() + 1,
+              today.getDate()
+            );
             return eventDate >= today && eventDate <= monthFromNow;
           default:
             return true;
@@ -270,87 +301,87 @@ app.get('/api/events', (req, res) => {
       }
     });
   }
-  
+
   res.json(filteredEvents);
 });
 
 // Get single event
-app.get('/api/events/:id', (req, res) => {
+app.get("/api/events/:id", (req, res) => {
   const eventId = parseInt(req.params.id);
-  const event = events.find(e => e.id === eventId);
-  
+  const event = events.find((e) => e.id === eventId);
+
   if (!event) {
-    return res.status(404).json({ error: 'Event not found' });
+    return res.status(404).json({ error: "Event not found" });
   }
-  
+
   res.json(event);
 });
 
 // Get unique categories
-app.get('/api/categories', (req, res) => {
+app.get("/api/categories", (req, res) => {
   const categories = new Set();
-  
-  events.forEach(event => {
+
+  events.forEach((event) => {
     if (event.CategoryList) {
-      const cats = Array.isArray(event.CategoryList) 
-        ? event.CategoryList 
+      const cats = Array.isArray(event.CategoryList)
+        ? event.CategoryList
         : [event.CategoryList];
-      cats.forEach(cat => {
+      cats.forEach((cat) => {
         if (cat && cat.trim()) {
           categories.add(cat.trim());
         }
       });
     }
   });
-  
+
   res.json(Array.from(categories).sort());
 });
 
 // Get unique areas
-app.get('/api/areas', (req, res) => {
+app.get("/api/areas", (req, res) => {
   const areas = new Set();
-  
-  events.forEach(event => {
+
+  events.forEach((event) => {
     if (event.Area && event.Area.trim()) {
       areas.add(event.Area.trim());
     }
   });
-  
+
   res.json(Array.from(areas).sort());
 });
 
 // Get autocomplete suggestions
-app.get('/api/autocomplete', (req, res) => {
+app.get("/api/autocomplete", (req, res) => {
   const { query, limit = 10 } = req.query;
-  
+
   if (!query || query.length < 2) {
     return res.json({});
   }
-  
+
   const suggestions = [];
   const queryLower = query.toLowerCase();
   const seen = new Set(); // To avoid duplicates
-  
-  events.forEach(event => {
+
+  events.forEach((event) => {
     // Only search in event names
     if (event.EventName && event.EventName.toLowerCase().includes(queryLower)) {
       const key = `event-${event.EventName}`;
       if (!seen.has(key)) {
         suggestions.push({
           text: event.EventName,
-          type: 'event',
-          category: 'Events'
+          type: "event",
+          category: "Events",
         });
         seen.add(key);
       }
     }
   });
-  
+
   // Limit results and group by category
   const limitedSuggestions = suggestions
-    .filter(s => s.text && s.text.trim().length > 0)
+    .filter((s) => s.text && s.text.trim().length > 0)
     .slice(0, parseInt(limit));
-  
+
   // Group by category
   const grouped = limitedSuggestions.reduce((acc, suggestion) => {
     const categoryName = suggestion.category;
@@ -362,57 +393,69 @@ app.get('/api/autocomplete', (req, res) => {
     acc[categoryName].push(suggestionWithoutCategory);
     return acc;
   }, {});
-  
+
   res.json(grouped);
 });
 
 // Refresh events from API
-app.post('/api/refresh', (req, res) => {
-  console.log('Refreshing events from API...');
+app.post("/api/refresh", (req, res) => {
+  console.log("Refreshing events from API...");
   fetchEventsFromAPI();
-  res.json({ 
-    message: 'Events refresh initiated',
-    timestamp: new Date().toISOString()
+  res.json({
+    message: "Events refresh initiated",
+    timestamp: new Date().toISOString(),
   });
 });
 
 // Health check
-app.get('/api/health', (req, res) => {
-  res.json({ 
-    status: 'OK', 
+app.get("/api/health", (req, res) => {
+  res.json({
+    status: "OK",
     eventsLoaded: events.length,
-    dataSource: isUsingFallback ? 'Local fallback file (event-data.json)' : 'Toronto Open Data API',
+    dataSource: isUsingFallback
+      ? "Local fallback file (event-data.json)"
+      : "Toronto Open Data API",
     lastFetchTime: lastFetchTime ? lastFetchTime.toISOString() : null,
-    timestamp: new Date().toISOString()
+    timestamp: new Date().toISOString(),
   });
 });
 
 // Initialize events on first request in serverless environment
 let eventsInitialized = false;
-const initializeEvents = () => {
-  if (!eventsInitialized) {
-    console.log('Initializing events...');
-    if (events.length === 0) {
-      // Try to fetch from API, fallback to local data if it fails
-      if (process.env.EVENTS_URL) {
-        fetchEventsFromAPI();
-      } else {
-        console.log('No EVENTS_URL found, loading fallback data');
-        loadFallbackEvents();
+let initializationPromise = null;
+
+const initializeEvents = async () => {
+  if (!eventsInitialized && !initializationPromise) {
+    console.log("Initializing events...");
+    initializationPromise = (async () => {
+      if (events.length === 0) {
+        // Try to fetch from API, fallback to local data if it fails
+        console.log("process.env.EVENTS_URL", process.env.EVENTS_URL);
+        if (process.env.EVENTS_URL) {
+          await fetchEventsFromAPI();
+        } else {
+          console.log("No EVENTS_URL found, loading fallback data");
+          loadFallbackEvents();
+        }
       }
-    }
-    eventsInitialized = true;
+      eventsInitialized = true;
+    })();
+  }
+
+  // Wait for initialization to complete if it's in progress
+  if (initializationPromise) {
+    await initializationPromise;
   }
 };
 
 // Middleware to ensure events are initialized before handling requests
-app.use((req, res, next) => {
-  initializeEvents();
+app.use(async (req, res, next) => {
+  await initializeEvents();
   next();
 });
 
 // Fetch events from API on startup (only in non-serverless environment)
-if (process.env.NODE_ENV !== 'production') {
+if (process.env.NODE_ENV !== "production") {
   initializeEvents();
   app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
